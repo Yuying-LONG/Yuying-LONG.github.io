@@ -57,7 +57,7 @@ education:
     date_start: 2022-09-01
     date_end: now
     
-    - area: MS Transportation Planning & Management
+  - area: MS Transportation Planning & Management
     institution: Harbin Institute of Technology
     date_start: 2020-09-01
     date_end: 2022-06-01
