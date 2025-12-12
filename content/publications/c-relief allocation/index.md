@@ -28,10 +28,10 @@ publication_types: ['article-journal']
 publication: In *Journal of Safety Science and Technology*
 publication_short: In *Journal of Safety Science and Technology*
 
-abstract: 
+abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: ""
 
 tags:
   - Dynamic decision-making
@@ -42,7 +42,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 
+    doi: ""
 
 # Custom links
 links:
