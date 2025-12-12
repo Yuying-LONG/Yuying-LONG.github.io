@@ -55,7 +55,7 @@ education:
   - area: Ph.D. candidate Aviation Engineering
     institution: The Hong Kong Polytechnic University
     date_start: 2022-09-01
-    date_end: now
+    date_end: ''
     
   - area: MS Transportation Planning & Management
     institution: Harbin Institute of Technology
