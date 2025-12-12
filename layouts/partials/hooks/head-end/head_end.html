@@ -1,0 +1,52 @@
+<!-- 自定义背景样式注入 -->
+<style>
+  /* 1. 设置网页整体背景色：淡灰蓝 */
+  body {
+    background-color: #f5f7fa !important;
+  }
+
+  /* 2. 修复深色模式下的背景（如果你没有强制关闭深色模式） */
+  @media (prefers-color-scheme: dark) {
+    body.dark {
+      background-color: #1a1a1a !important; /* 深色模式下的背景 */
+    }
+  }
+
+  /* 3. 让所有内容卡片变白，产生“悬浮”效果 */
+  /* 针对不同的板块容器 */
+  .card, 
+  .pub-card, 
+  .article-container, 
+  .resume-biography-3,
+  .blox-collection,
+  section#about,
+  .widget-markdown {
+    background-color: #ffffff !important;
+    border-radius: 12px;           /* 圆角 */
+    padding: 25px;                 /* 内边距 */
+    margin-bottom: 24px;           /* 卡片间距 */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.03); /* 淡淡的阴影 */
+    border: 1px solid rgba(0,0,0,0.05);     /* 极细的边框 */
+  }
+
+  /* 4. 特殊修复：移除一些本来透明的背景 */
+  .page-wrapper {
+    background-color: transparent !important;
+  }
+  
+  /* 5. 修复 Services 列表的间距 */
+  #services {
+    background-color: #ffffff !important;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+  }
+
+  /* 6. 手机端适配：边距稍微小一点 */
+  @media (max-width: 768px) {
+    .card, .pub-card, .resume-biography-3, section#about {
+      padding: 15px;
+    }
+  }
+</style>
