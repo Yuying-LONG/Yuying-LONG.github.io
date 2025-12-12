@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yuying LONG (龙玉莹)
+title: Yuying LONG
 
 # Name pronunciation (optional)
 name_pronunciation: ''
