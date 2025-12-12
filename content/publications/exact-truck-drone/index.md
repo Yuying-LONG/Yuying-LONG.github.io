@@ -44,7 +44,7 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    10.1016/j.eswa.2024.126218
+    doi: 10.1016/j.eswa.2024.126218
 
 # Custom links
 links:
