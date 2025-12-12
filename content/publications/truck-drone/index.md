@@ -1,1 +1,83 @@
+---
+title: 'Dynamic Truck–UAV Collaboration and Integrated Route Planning for Resilient Urban Emergency Response'
 
+# Authors
+# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
+# and it will be replaced with their full name and linked to their profile.
+authors:
+  - admin
+  - Dr. Gangyan Xu
+  - Dr. Jinqiu Zhao
+  - Dr. Binglei Xie
+
+# Author notes (optional)
+author_notes:
+  - ''
+
+date: '2023-08-24T00:00:00Z'
+
+# Schedule page publish date (NOT publication's date).
+publishDate: '2023-08-24T00:00:00Z'
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ['paper-conference']
+
+# Publication name and optional abbreviated publication name.
+publication: In *IEEE Transactions on Engineering Management*
+publication_short: In *IEEE TEM*
+
+abstract: Efficient urban emergency response is vital for saving lives and property after disasters. However, urban emergency response is challenging because it involves many demands, with a very tight time for making decisions, and is frequently threatened by the disruption of road networks and infrastructures. Taking these challenges into consideration, this article proposes a dynamic truck-UAV (DTU) collaboration strategy to realize efficient and resilient urban emergency response. Specifically, a DTU collaboration strategy is first proposed based on the characteristics of urban emergency management. Then, an integrated truck-UAV collaborative scheduling model is developed and indicated to be an NP-hard problem. Then, a tabu search-based integrated (TSI) scheduling algorithm is developed, with several tailored local search operators and a recursion-based evaluation (RE) algorithm. Finally, comprehensive experiments are conducted to demonstrate the superiority of our proposed strategy over existing truck-UAV collaboration strategies and verify the performance of our proposed solution algorithm.
+Managerial Relevance Statement—This article proposes a dynamic truck-UAV (DTU) collaboration strategy and a corresponding route planning method for urban emergency response. The findings of this work demonstrate that emergency management agencies can utilize the DTU collaboration strategy for efficient emergency response in urban areas with high-density road networks. Meanwhile, the emergency response under this strategy is resilient to cope with different degrees of road network disruptions. In addition, the DTU collaboration strategy shows a distinct improvement over the parallel and truck-UAV flying sidekick strategies in large-scale emergency response scenarios, and it will perform better when demand density increases. Furthermore, the proposed integrated scheduling algorithm is demonstrated to be suitable and efficient for solving the routing problems associated with the DTU collaboration strategy.
+
+# Summary. An optional shortened abstract.
+summary: Propose a novel dynamic truck-UAV collaboration strategy.
+
+tags:
+  - Truck-UAV collaboration
+  - Resilient emergency response
+
+# Display this page in the Featured widget?
+featured: true
+
+# Standard identifiers for auto-linking
+hugoblox:
+  ids:
+    doi: 10.1109/TEM.2023.3299693
+
+# Custom links
+links:
+  - type: pdf
+    url: "https://ieeexplore.ieee.org/abstract/document/10229971"
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  focal_point: ''
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects:
+  - example
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+
+> [!NOTE]
+> Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+
+> [!NOTE]
+> Create your slides in Markdown - click the _Slides_ button to check out the example.
+
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
