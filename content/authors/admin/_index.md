@@ -112,4 +112,4 @@ Selected awards:
 
 ---
 
-Yuying LONG is currently pursuing a Ph.D. degree in Aviation Engineering from [The Hong Kong Polytechnic University, Hong Kong](https://www.polyu.edu.hk/aae/), where she is so fortunate to be supervised by [Dr. Gangyan XU](http://xugangyan.cn/index.html). She received a B.S. in traffic and transportation from [Southwest Jiaotong University, Chengdu, China](https://ctt.swjtu.edu.cn/yethan/WebIndexAction), and an M.E. degree in transportation engineering from [Harbin Institute of Technology (Shenzhen), Shenzhen, China](https://www.hitsz.edu.cn/), in 2020 and 2022, respectively.
+Yuying LONG is currently pursuing a Ph.D. degree in Aviation Engineering from [The Hong Kong Polytechnic University, Hong Kong](https://www.polyu.edu.hk/aae/), supervised by [Dr. Gangyan XU](http://xugangyan.cn/index.html). She received a B.S. in traffic and transportation from [Southwest Jiaotong University, Chengdu, China](https://ctt.swjtu.edu.cn/yethan/WebIndexAction), and an M.E. degree in transportation engineering from [Harbin Institute of Technology (Shenzhen), Shenzhen, China](https://www.hitsz.edu.cn/), in 2020 and 2022, respectively.
