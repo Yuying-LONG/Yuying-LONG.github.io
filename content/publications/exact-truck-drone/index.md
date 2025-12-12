@@ -5,10 +5,10 @@ title: 'A matheuristic solution for efficient scheduling in dynamic truck–dron
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Dr. Jinqiu Zhao
+  - Jinqiu Zhao
   - admin
-  - Dr. Binglei Xie
-  - Dr. Gangyan Xu
+  - Binglei Xie
+  - Gangyan Xu
   - Yongwu Liu
 
 # Author notes (optional)
