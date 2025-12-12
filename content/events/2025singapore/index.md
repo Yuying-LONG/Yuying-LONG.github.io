@@ -17,7 +17,7 @@ abstract: 'The unpredictable nature of disasters creates uncertainty in rescue d
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2025-07-23T13:00:00Z'
-date_end: '205-07-23T13:15:00Z'
+date_end: '2025-07-23T13:15:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
