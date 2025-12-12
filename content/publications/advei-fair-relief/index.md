@@ -6,8 +6,8 @@ title: 'Dynamic heterogeneous resource allocation in post-disaster relief operat
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Dr. Peng Sun
-  - Dr. Gangyan Xu
+  - Peng Sun
+  - Gangyan Xu
 
 # Author notes (optional)
 author_notes:
