@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph. D. student
+role: Ph. D. candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -52,7 +52,7 @@ interests:
   - Large Language Models
 
 education:
-- area: Visitor
+  - area: Visitor
     institution: Technical University of Munich
     date_start: 2025-09-01
     date_end: ''
