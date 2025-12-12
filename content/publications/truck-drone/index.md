@@ -22,14 +22,13 @@ publishDate: '2023-08-24T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article-journale']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Transactions on Engineering Management*
 publication_short: In *IEEE TEM*
 
 abstract: Efficient urban emergency response is vital for saving lives and property after disasters. However, urban emergency response is challenging because it involves many demands, with a very tight time for making decisions, and is frequently threatened by the disruption of road networks and infrastructures. Taking these challenges into consideration, this article proposes a dynamic truck-UAV (DTU) collaboration strategy to realize efficient and resilient urban emergency response. Specifically, a DTU collaboration strategy is first proposed based on the characteristics of urban emergency management. Then, an integrated truck-UAV collaborative scheduling model is developed and indicated to be an NP-hard problem. Then, a tabu search-based integrated (TSI) scheduling algorithm is developed, with several tailored local search operators and a recursion-based evaluation (RE) algorithm. Finally, comprehensive experiments are conducted to demonstrate the superiority of our proposed strategy over existing truck-UAV collaboration strategies and verify the performance of our proposed solution algorithm.
-Managerial Relevance Statement—This article proposes a dynamic truck-UAV (DTU) collaboration strategy and a corresponding route planning method for urban emergency response. The findings of this work demonstrate that emergency management agencies can utilize the DTU collaboration strategy for efficient emergency response in urban areas with high-density road networks. Meanwhile, the emergency response under this strategy is resilient to cope with different degrees of road network disruptions. In addition, the DTU collaboration strategy shows a distinct improvement over the parallel and truck-UAV flying sidekick strategies in large-scale emergency response scenarios, and it will perform better when demand density increases. Furthermore, the proposed integrated scheduling algorithm is demonstrated to be suitable and efficient for solving the routing problems associated with the DTU collaboration strategy.
 
 # Summary. An optional shortened abstract.
 summary: Propose a novel dynamic truck-UAV collaboration strategy.
