@@ -1,1 +1,51 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- 强力背景样式注入 -->
+<style>
+  /* 1. 对 HTML 和 Body 进行双重强制填色 */
+  html, body {
+    background: #f0f2f5 !important; /* 这里是淡灰色，肉眼可见 */
+    background-color: #f0f2f5 !important;
+  }
+
+  /* 2. 扒掉所有可能挡住背景的“白布” */
+  .page-wrapper, 
+  .page-body, 
+  div[class*="bg-white"], 
+  body > div {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+
+  /* 3. 把内容区域重新涂白，做成卡片 */
+  /* 涵盖了所有可能的容器类名 */
+  .card, 
+  .pub-card, 
+  .article-container, 
+  .resume-biography-3, 
+  .blox-collection, 
+  #about, 
+  #services, 
+  .widget-markdown,
+  .stream-item {
+    background-color: #ffffff !important;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* 加阴影 */
+    border: 1px solid rgba(0,0,0,0.02);
+  }
+
+  /* 4. 修复顶部导航栏，让它变成纯白，不要透明 */
+  nav.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  /* 5. 深色模式适配 */
+  @media (prefers-color-scheme: dark) {
+    html, body { background: #121212 !important; }
+    .card, #about { background-color: #1e1e1e !important; }
+    nav.navbar { background-color: #1e1e1e !important; }
+  }
+</style>
