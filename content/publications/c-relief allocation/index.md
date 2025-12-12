@@ -14,10 +14,10 @@ authors:
 author_notes:
   - ''
 
-date: '2025-10-01T00:00:00Z'
+date: '2024-10-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-10-01T00:00:00Z'
+publishDate: '2024-10-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,7 +28,7 @@ publication_types: ['article-journal']
 publication: In *Journal of Safety Science and Technology*
 publication_short: In *Journal of Safety Science and Technology*
 
-abstract: ''
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -42,7 +42,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: ''
+    doi: 
 
 # Custom links
 links:
