@@ -26,7 +26,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Journal of Safety Science and Technology*
-publication_short: In *Journal of Safety Science and Technology*
+publication_short: In *J. Safety Sci. Tech.*
 
 abstract: ""
 
