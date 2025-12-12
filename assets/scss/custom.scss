@@ -1,10 +1,6 @@
-/* 风格一：淡雅灰蓝背景 */
+/* 风格二：极简渐变背景 */
 body {
-  background-color: #f5f7fa !important;
-}
-
-/* 确保所有卡片依然是白色，保持对比度 */
-.card, .pub-card, .article-container, .stream-item {
-  background-color: #ffffff;
-  border: 1px solid #eef0f2; /* 给卡片加一点微弱的边框 */
+  background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%) !important;
+  background-attachment: fixed; /* 背景固定，滚动时不动 */
+  min-height: 100vh;
 }
