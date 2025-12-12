@@ -1,6 +1,5 @@
-
 ---
-title: 'Dynamic and Collaborative Dispatching of Heterogeneous Relief Resources considering Fairness (in Chinese)'
+title: "Dynamic and Collaborative Dispatching of Heterogeneous Relief Resources considering Fairness (in Chinese)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
