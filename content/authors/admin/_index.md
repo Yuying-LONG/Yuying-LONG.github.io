@@ -34,7 +34,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'yuying.long@connect.polyu.hk'
+    url: 'mailto:yuying.long@connect.polyu.hk'
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/Yuying-LONG
@@ -80,7 +80,7 @@ languages:
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-Selected awards:
+awards:
   - title: PolyU PhD Scholars International Collaborative Research Fellowship
     date: 'July 2025'
     awarder: The Hong Kong Polytechnic University
