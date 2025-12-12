@@ -1,6 +1,0 @@
-/* 风格二：极简渐变背景 */
-body {
-  background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%) !important;
-  background-attachment: fixed; /* 背景固定，滚动时不动 */
-  min-height: 100vh;
-}
