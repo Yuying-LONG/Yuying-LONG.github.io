@@ -52,6 +52,11 @@ interests:
   - Large Language Models
 
 education:
+- area: Visitor
+    institution: Technical University of Munich
+    date_start: 2025-09-01
+    date_end: ''
+  
   - area: Ph.D. candidate Aviation Engineering
     institution: The Hong Kong Polytechnic University
     date_start: 2022-09-01
