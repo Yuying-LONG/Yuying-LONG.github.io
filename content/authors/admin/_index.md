@@ -82,31 +82,31 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: PolyU PhD Scholars International Collaborative Research Fellowship
-    date: 'July 2025'
+    date: '2025-07-01'
     awarder: The Hong Kong Polytechnic University
     icon: hero/currency-dollar
   - title: Research Student Attachment Programme
-    date: 'July 2025'
+    date: '2025-07-01'
     awarder: The Hong Kong Polytechnic University
     icon: hero/currency-dollar
   - title: Best Paper Second Prize
-    date: 'November 2023'
+    date: '2023-11-01'
     awarder: International Symposium on Emergency Management
     icon: hero/academic-cap
   - title: Excellent Master’s thesis
-    date: 'June 2022'
+    date: '2022-06-01'
     awarder: Harbin Institute of Technology
     icon: hero/academic-cap
   - title: Outstanding Graduate
-    date: 'June 2022'
+    date: '2025-06-01'
     awarder: Harbin Institute of Technology
     icon: hero/trophy
   - title: Recommend Excellent Paper
-    date: 'December 2021'
+    date: '2021-12-01'
     awarder: International Symposium on Emergency Management
     icon: hero/trophy
   - title: Chinese National Encouragement Scholarship
-    date: 'December 2019'
+    date: '2019-12-01'
     awarder: Southwest Jiaotong University
     icon: hero/currency-dollar
 
