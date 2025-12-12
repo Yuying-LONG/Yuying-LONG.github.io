@@ -6,9 +6,9 @@ title: 'Dynamic Truck–UAV Collaboration and Integrated Route Planning for Resi
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Dr. Gangyan Xu
-  - Dr. Jinqiu Zhao
-  - Dr. Binglei Xie
+  - Gangyan Xu
+  - Jinqiu Zhao
+  - Binglei Xie
 
 # Author notes (optional)
 author_notes:
