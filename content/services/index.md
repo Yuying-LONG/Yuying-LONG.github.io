@@ -16,8 +16,7 @@ I have served as a reviewer for the following journals:
 *   Reliability Engineering & System Safety
 *   Expert Systems With Applications
 *   Frontiers of Engineering Management
-*   Operations Research Perspectives
-*   The Journal of Supercomputing
+*   Research in Transportation Business & Management
 
 ## Conference Service
 
@@ -26,7 +25,7 @@ I have served as a reviewer for the following journals:
 *   **Assistant**, The 28th ATRS World Conference, July 1-4, 2025
 
 ## Teaching Assistant
-*   **Safety, Reliability and Compliance**, 2023Spring, 24Spring, 25spring @PolyU
-*   **Fleet Management and Aviation Sustainability**, 23Fall @PolyU
-*   **Artificial Intelligence in Aviation Industry**，22Fall @PolyU
-*   **Mathematical Programming**, 22Spring @HITSZ
+*   **Safety, Reliability and Compliance**, 2023Spring, 24Spring, 25spring@PolyU
+*   **Fleet Management and Aviation Sustainability**, 23Fall@PolyU
+*   **Artificial Intelligence in Aviation Industry**，22Fall@PolyU
+*   **Mathematical Programming**, 22Spring@HITSZ
