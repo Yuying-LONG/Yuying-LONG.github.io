@@ -47,6 +47,7 @@ profiles:
 
 interests:
   - Emergency management
+  - UAV-assisted systems
   - Dynamic decision-making
   - Fair resource allocation
   - Large Language Models
