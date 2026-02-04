@@ -2,7 +2,7 @@
 ---
 title: UAV-Assisted Emergency Response: An Interdisciplinary Perspective
 
-event: TE2023-"Leveraging Transdisciplinary Engineering in a Changing and Connected World." 
+event: "TE2023-Leveraging Transdisciplinary Engineering in a Changing and Connected World." 
 event_url: "https://te2023.ait.ac.th/"
 
 location: Hua Hin Cha Am
