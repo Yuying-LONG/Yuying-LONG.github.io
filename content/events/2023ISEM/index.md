@@ -1,9 +1,8 @@
-
 ---
-title: 'Dynamic and Collaborative Dispatching of Heterogenous Relief Resources considering Fairness'
-
+title: Dynamic and Collaborative Dispatching of Heterogenous Relief Resources considering Fairness
 
 event: '2023 International Symposium on Emergency Management'
+
 event_url: ""
 
 location: Wuhan
@@ -18,16 +17,18 @@ abstract: 'It is difficult to dispatch heterogeneous relief resources efficientl
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-07-23T13:00:00Z'
-date_end: '2025-07-23T13:15:00Z'
+date: '2023-11-12T10:00:00Z'
+
+date_end: '2023-11-12T10:15:00Z'
+
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2025-07-23T00:00:00Z'
+publishDate: '2023-11-12T00:00:00Z'
 
 authors:
   - admin
-  - Zhengxiong Zhu
+  - Xishuang Han
   - Gangyan Xu
 
 tags: []
