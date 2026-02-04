@@ -39,7 +39,7 @@ tags:
   - Matheuristic
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Standard identifiers for auto-linking
 hugoblox:
