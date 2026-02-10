@@ -46,14 +46,15 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-9611-3338
 
 interests:
+  - Human-centric AI
+  - Large Language Models
+  - Dynamic decision-making
   - Emergency management
   - UAV-assisted systems
-  - Dynamic decision-making
   - Fair resource allocation
-  - Large Language Models
 
 education:
-  - area: Visitor
+  - area: Visiting scholar
     institution: Technical University of Munich
     date_start: 2025-09-01
     date_end: ''
