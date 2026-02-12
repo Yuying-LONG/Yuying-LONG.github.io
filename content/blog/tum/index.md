@@ -10,12 +10,10 @@ image:
 
 authors:
   - admin
-  - Ted
 
 tags:
   - Academic
-  - Hugo Blox
-  - Markdown
+  - Visiting
 
 content_meta:
   trending: true
