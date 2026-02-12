@@ -1,6 +1,6 @@
 ---
 title: 🎉 Start academic visiting at TUM
-summary: I have arrived in Munich, Germany for academic visiting at TUM, supervisor by Prof. Stefan Minner
+summary: I have arrived in Munich, Germany for academic visiting at TUM, host by Prof. Stefan Minner
 date: 2025-09-01
 
 # Featured image
