@@ -15,6 +15,8 @@ I have served as a reviewer for the following journals:
 *   International Journal of Disaster Risk Reduction
 *   Applied Soft Computing
 *   Reliability Engineering & System Safety
+*   Socio-Economic Planning Sciences
+*   Vehicular Communications
 *   Knowledge-Based Systems
 *   Expert Systems With Applications
 *   Frontiers of Engineering Management
