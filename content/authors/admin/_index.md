@@ -78,7 +78,7 @@ education:
 # Add your own SVG icons to `assets/media/icons/`
 
 languages:
-  - name: Chinese
+  - name: Mandarin
     percent: 100
   - name: English
     percent: 80
