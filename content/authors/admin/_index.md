@@ -57,7 +57,7 @@ education:
   - area: Visiting scholar
     institution: Technical University of Munich
     date_start: 2025-09-01
-    date_end: ''
+    date_end: '2026-02-28'
   
   - area: Ph.D. candidate Aviation Engineering
     institution: The Hong Kong Polytechnic University
