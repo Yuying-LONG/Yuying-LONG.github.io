@@ -7,7 +7,7 @@ name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Yuying
-last_name: LONG
+last_name: Long
 
 # Pronouns (optional)
 pronouns: she/her
@@ -119,4 +119,10 @@ awards:
 
 ---
 
-Yuying LONG is currently pursuing a Ph.D. degree in Aviation Engineering from [The Hong Kong Polytechnic University, Hong Kong](https://www.polyu.edu.hk/aae/), supervised by [Dr. Gangyan XU](http://xugangyan.cn/index.html). During her Ph.D. studies, she was a visiting scholar at Technical University of Munich, hosted by [Prof. Stefan Minner](https://www.ot.mgt.tum.de/log/team/minner/). She received a B.S. in traffic and transportation from [Southwest Jiaotong University, Chengdu, China](https://ctt.swjtu.edu.cn/yethan/WebIndexAction), and an M.E. degree in transportation engineering from [Harbin Institute of Technology (Shenzhen), Shenzhen, China](https://www.hitsz.edu.cn/), in 2020 and 2022, respectively.
+Yuying Long is currently pursuing a Ph.D. degree in Aviation Engineering from [The Hong Kong Polytechnic University, Hong Kong](https://www.polyu.edu.hk/aae/), supervised by [Dr. Gangyan XU](http://xugangyan.cn/index.html). During her Ph.D. studies, she was a visiting scholar at Technical University of Munich, hosted by [Prof. Stefan Minner](https://www.ot.mgt.tum.de/log/team/minner/). She received a B.S. in traffic and transportation from [Southwest Jiaotong University, Chengdu, China](https://ctt.swjtu.edu.cn/yethan/WebIndexAction), and an M.E. degree in transportation engineering from [Harbin Institute of Technology (Shenzhen), Shenzhen, China](https://www.hitsz.edu.cn/), in 2020 and 2022, respectively.
+
+<p>
+  <font color="red">
+    <strong> Yuying Long is expected to graduate in 2026 and is currently on the academic job market.</strong>
+  </font>
+</p>
