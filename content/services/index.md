@@ -12,6 +12,7 @@ layout: single
 
 I have served as a reviewer for the following journals:
 
+*   International Journal of Production Economics
 *   International Journal of Disaster Risk Reduction
 *   Applied Soft Computing
 *   Reliability Engineering & System Safety
