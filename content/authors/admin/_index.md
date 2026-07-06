@@ -88,6 +88,10 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: HKSAR Government Scholarship Fund - Reaching Out Award 2025/26
+    date: '2026-06-17'
+    awarder: HKSAR, China
+    icon: hero/currency-dollar
   - title: PolyU PhD Scholars International Collaborative Research Fellowship
     date: '2025-07-01'
     awarder: The Hong Kong Polytechnic University
