@@ -22,6 +22,7 @@ I have served as a reviewer for the following journals:
 *   Expert Systems With Applications
 *   Frontiers of Engineering Management
 *   Research in Transportation Business & Management
+*   Neurocomputing
 
 ## Conference Service
 
