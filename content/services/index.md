@@ -12,6 +12,7 @@ layout: single
 
 I have served as a reviewer for the following journals:
 
+*   Nature Humanities and Social Sciences Communications
 *   International Journal of Production Economics
 *   International Journal of Disaster Risk Reduction
 *   Applied Soft Computing
