@@ -59,7 +59,7 @@ education:
     date_start: 2025-09-01
     date_end: '2026-02-28'
   
-  - area: Ph.D. candidate Aviation Engineering
+  - area: Ph.D. candidate
     institution: The Hong Kong Polytechnic University
     date_start: 2022-09-01
     date_end: ''
