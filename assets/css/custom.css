@@ -7,17 +7,13 @@
 
 .numbered-publication { display: grid; grid-template-columns: 2.75rem minmax(0, 1fr); gap: .5rem; align-items: start; }
 .publication-number { font-size: 1rem; font-weight: 600; padding-top: .05rem; }
-.presentation-list { width: min(100%, 56rem); padding: 1.5rem; display: grid; gap: 1.25rem; }
-.presentation-card { border-bottom: 1px solid #cbd5e1; padding: 0 0 1.25rem; }
-.presentation-card h2 { font-size: 1.25rem; line-height: 1.5; font-weight: 700; margin: 0 0 1rem; }
-.presentation-card h2 a:hover { text-decoration: underline; }
 .activity-gallery { display: grid; gap: 1.5rem; }
 .activity-gallery figure { margin: 0; padding: 1rem; border: 1px solid #cbd5e1; border-radius: .75rem; }
 .activity-gallery img { display: block; width: 100%; height: auto; margin: 0; border-radius: .5rem; }
 .activity-gallery figcaption { font-size: .875rem; margin-top: .75rem; line-height: 1.6; }
 .activity-gallery figcaption strong, .activity-gallery figcaption span { display: block; }
-.dark .presentation-card, .dark .activity-gallery figure { border-color: #475569; }
-@media (max-width: 480px) { .presentation-card { padding: 1rem; } .numbered-publication { grid-template-columns: 2.25rem minmax(0, 1fr); } }
+.dark .activity-gallery figure { border-color: #475569; }
+@media (max-width: 480px) { .numbered-publication { grid-template-columns: 2.25rem minmax(0, 1fr); } }
 
 .publication-list { width: min(100%, 56rem); margin: 1.5rem auto; padding: 0 1.5rem; }
 .numbered-publication { margin: 0 0 .65rem; line-height: 1.55; }
@@ -28,8 +24,11 @@
 .citation-text > a:hover { text-decoration: underline; }
 .prose .chinese-publications { width: 100%; padding: 0; margin: 1rem 0; font-size: 1rem; line-height: 1.55; }
 .prose .chinese-publications a { overflow-wrap: anywhere; }
-.presentation-details { margin: 0 0 .5rem; font-size: 1rem; line-height: 1.6; }
-.presentation-details > div { display: grid; grid-template-columns: 6.5rem minmax(0,1fr); gap: .5rem; }
-.presentation-details dt { font-weight: 600; }
-.presentation-details dd { margin: 0; }
-.presentation-detail-link { text-decoration: underline; font-size: .9375rem; }
+
+.presentation-list { width: min(100%, 56rem); margin: 1.5rem auto; padding: 0 1.5rem 0 2.75rem; list-style: disc; }
+.presentation-entry { padding: 0 0 1rem .25rem; margin-bottom: 1rem; border-bottom: 1px solid #cbd5e1; }
+.presentation-entry:last-child { margin-bottom: 0; border-bottom: 0; }
+.presentation-entry h2 { font-size: 1.125rem; line-height: 1.5; font-weight: 700; margin: 0 0 .35rem; }
+.presentation-entry p { font-size: 1rem; line-height: 1.6; margin: .2rem 0; }
+.presentation-entry a:hover, .presentation-meta a { text-decoration: underline; }
+.dark .presentation-entry { border-color: #475569; }

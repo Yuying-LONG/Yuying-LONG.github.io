@@ -1,11 +1,7 @@
 {{ $item := .item }}
 {{ $country := $item.Params.address.country | default "" }}
-<article class="presentation-card" aria-labelledby="presentation-{{ $item.File.UniqueID }}">
-  <h2 id="presentation-{{ $item.File.UniqueID }}"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
-  <dl class="presentation-details">
-    <div><dt>Conference</dt><dd>{{ $item.Params.event }}</dd></div>
-    <div><dt>Date</dt><dd><time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 2, 2006" }}</time></dd></div>
-    <div><dt>Location</dt><dd>{{ $item.Params.location }}{{ if and $country (ne $country $item.Params.location) }}, {{ $country }}{{ end }}</dd></div>
-  </dl>
-  <a class="presentation-detail-link" href="{{ $item.RelPermalink }}">Details</a>
-</article>
+<li class="presentation-entry">
+  <h2><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
+  <p class="presentation-event">{{ $item.Params.event }}</p>
+  <p class="presentation-meta"><time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 2, 2006" }}</time> · {{ $item.Params.location }}{{ if and $country (ne $country $item.Params.location) }}, {{ $country }}{{ end }} · <a href="{{ $item.RelPermalink }}">Details</a></p>
+</li>
