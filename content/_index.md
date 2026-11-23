@@ -36,16 +36,21 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
+  - block: collection
+    id: featured-research
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: Featured Research
       text: |-
         Advancing Human-Centric Emergency Response through OR, OM, and AI
 
-        Please reach out to collaborate 😃
+        [View all publications](/publications/)
+      filters:
+        folders:
+          - publications
+        featured_only: true
     design:
-      columns: '1'
+      view: article-grid
+      columns: 2
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
