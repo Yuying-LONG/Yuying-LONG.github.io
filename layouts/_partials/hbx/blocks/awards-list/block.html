@@ -1,0 +1,10 @@
+{{ $block := .wcBlock }}
+{{ $person := site.GetPage (printf "/authors/%s" ($block.content.username | default "admin")) }}
+<div class="max-w-prose mx-auto px-6">
+  <h2 class="text-3xl font-bold mb-6">{{ $block.content.title }}</h2>
+  <ul class="list-disc pl-5 space-y-3 text-base">
+    {{ range sort $person.Params.awards "date" "desc" }}
+      <li><strong>{{ .title }}</strong> — {{ .awarder }}{{ with .date }}, {{ (time .).Format "2006" }}{{ end }}.</li>
+    {{ end }}
+  </ul>
+</div>

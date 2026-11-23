@@ -13,10 +13,7 @@ main:
   - name: News
     url: /blog/
     weight: 13
-  - name: Experience
-    url: experience/
-    weight: 20
-  - name: Services
+  - name: 'Teaching & Service'
     url: services/
     weight: 40
   - name: Chinese

@@ -51,6 +51,14 @@ sections:
     design:
       view: article-grid
       columns: 2
+  - block: awards-list
+    id: awards
+    content:
+      title: Awards & Honors
+      username: admin
+    design:
+      spacing:
+        padding: ['2rem', '0', '4rem', '0']
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

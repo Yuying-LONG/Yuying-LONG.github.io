@@ -18,6 +18,12 @@ albums:
     context: 'Hua Hin Cha Am, Thailand · July 2023'
 ---
 
+## Personal Hobbies
+
+Badminton 🏸 · Table Tennis 🏓 · Hiking 🥾 · Reading 📚
+
+## Academic Activities
+
 Photos from conferences, academic visits, and research activities.
 
 {{< activity-gallery >}}
