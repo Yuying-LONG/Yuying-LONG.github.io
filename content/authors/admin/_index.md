@@ -45,13 +45,14 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/my-orcid?orcid=0000-0002-9611-3338
 
-interests:
-  - Human-centric AI
-  - Large Language Models
-  - Dynamic decision-making
-  - Emergency management
-  - UAV-assisted systems
-  - Fair resource allocation
+# Interests temporarily hidden; uncomment to restore.
+# interests:
+#   - Human-centric AI
+#   - Large Language Models
+#   - Dynamic decision-making
+#   - Emergency management
+#   - UAV-assisted systems
+#   - Fair resource allocation
 
 education:
   - area: Visiting scholar
@@ -123,12 +124,14 @@ awards:
 
 ---
 
-Yuying Long is a PhD candidate in Systems Engineering at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/aae/), under the supervision of [Dr. Gangyan Xu](http://xugangyan.cn/index.html). During her doctoral studies, she was a visiting scholar at the Technical University of Munich, hosted by [Prof. Stefan Minner](https://www.ot.mgt.tum.de/log/team/minner/). She received her bachelor’s degree from [Southwest Jiaotong University](https://ctt.swjtu.edu.cn/yethan/WebIndexAction) in 2020 and her master’s degree from [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/) in 2022.
+<p style="text-align: justify;">
+Yuying Long is a PhD candidate in Systems Engineering at <a href="https://www.polyu.edu.hk/aae/">The Hong Kong Polytechnic University</a>, under the supervision of <a href="http://xugangyan.cn/index.html">Dr. Gangyan Xu</a>. During her doctoral studies, she was a visiting scholar at the Technical University of Munich, hosted by <a href="https://www.ot.mgt.tum.de/log/team/minner/">Prof. Stefan Minner</a>. She received her bachelor’s degree from <a href="https://ctt.swjtu.edu.cn/yethan/WebIndexAction">Southwest Jiaotong University</a> in 2020 and her master’s degree from <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology (Shenzhen)</a> in 2022.
+</p>
 
+<p style="text-align: justify;">
 Her research focuses on humanitarian operations and intelligent decision-making, with an emphasis on dynamic resource allocation, UAV-assisted systems, and fairness in emergency response. In her future research, she aims to integrate operations research with artificial intelligence, particularly large language models, to support efficient, fair, and human-centered operational decisions under uncertainty.
+</p>
 
 <p>
-  <font color="red">
-    <strong> Yuying Long is expected to graduate in 2026 and is currently on the academic job market.</strong>
-  </font>
+  <strong style="color: #dc2626;">Yuying Long is expected to graduate in 2026 and is currently on the academic job market.</strong>
 </p>
