@@ -22,11 +22,11 @@ sections:
     content:
       title: Skills & Hobbies
       text: |-
-        Badminton 🏸 · Table Tennis 🏓 · Hiking · Reading
+        Badminton 🏸 · Table Tennis 🏓 · Hiking 🥾 · Reading 📚
     design:
       columns: '1'
   - block: resume-awards
     content:
-      title: Awards
+      title: Selected Awards
       username: admin
 ---

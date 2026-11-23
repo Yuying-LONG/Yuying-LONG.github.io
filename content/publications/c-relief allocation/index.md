@@ -25,7 +25,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *Journal of Safety Science and Technology*
-publication_short: In *J. Safety Sci. Tech.*
+publication_short: In *Journal of Safety Science and Technology*
 
 abstract: ""
 
@@ -54,4 +54,11 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ''
   preview_only: false
+citation_zh:
+  authors: ['龙玉莹', '韩喜双', '许钢焱']
+  title: '考虑公平性的异质应急资源动态协同分配方法'
+  publication: '中国安全生产科学技术'
+  volume: '20'
+  issue: '11'
+  pages: '5–13'
 ---

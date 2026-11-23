@@ -1,0 +1,7 @@
+<div class="publication-list chinese-publications">
+{{ with site.GetPage "/publications" }}
+  {{ range $index, $item := .RegularPages.ByDate.Reverse }}
+    {{ partial "publication-citation.html" (dict "item" $item "number" (add $index 1) "language" "zh") }}
+  {{ end }}
+{{ end }}
+</div>

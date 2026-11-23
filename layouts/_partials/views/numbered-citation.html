@@ -1,11 +1,6 @@
 {{ $item := .item }}
 {{ $number := 0 }}
 {{ range $index, $candidate := $item.CurrentSection.RegularPages.ByDate.Reverse }}
-  {{ if eq $candidate.RelPermalink $item.RelPermalink }}
-    {{ $number = add $index 1 }}
-  {{ end }}
+  {{ if eq $candidate.RelPermalink $item.RelPermalink }}{{ $number = add $index 1 }}{{ end }}
 {{ end }}
-<div class="numbered-publication">
-  <span class="publication-number">[{{ $number }}]</span>
-  <div>{{ partial "views/citation.html" . }}</div>
-</div>
+{{ partial "publication-citation.html" (dict "item" $item "number" $number) }}

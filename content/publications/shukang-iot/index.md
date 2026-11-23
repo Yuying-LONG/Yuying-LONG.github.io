@@ -26,7 +26,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2022 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)*
-publication_short: In *2022 IEEE IEEM*
+publication_short: In *2022 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)*
 
 abstract: ''
 

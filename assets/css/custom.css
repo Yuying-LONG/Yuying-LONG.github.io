@@ -7,19 +7,29 @@
 
 .numbered-publication { display: grid; grid-template-columns: 2.75rem minmax(0, 1fr); gap: .5rem; align-items: start; }
 .publication-number { font-size: 1rem; font-weight: 600; padding-top: .05rem; }
-.presentation-list { width: min(100%, 56rem); padding: 1.5rem; display: grid; gap: 2rem; }
-.presentation-card { border: 1px solid #cbd5e1; border-radius: .75rem; padding: 1.5rem; }
-.presentation-labels { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
-.presentation-labels > * { padding: .35rem .65rem; border-radius: .4rem; background: #e0e7ff; color: #312e81; font-size: .875rem; line-height: 1.5; }
-.presentation-conference { flex-basis: 100%; }
+.presentation-list { width: min(100%, 56rem); padding: 1.5rem; display: grid; gap: 1.25rem; }
+.presentation-card { border-bottom: 1px solid #cbd5e1; padding: 0 0 1.25rem; }
 .presentation-card h2 { font-size: 1.25rem; line-height: 1.5; font-weight: 700; margin: 0 0 1rem; }
 .presentation-card h2 a:hover { text-decoration: underline; }
-.presentation-card img { width: 100%; height: auto; max-height: 28rem; object-fit: contain; border-radius: .5rem; }
 .activity-gallery { display: grid; gap: 1.5rem; }
 .activity-gallery figure { margin: 0; padding: 1rem; border: 1px solid #cbd5e1; border-radius: .75rem; }
 .activity-gallery img { display: block; width: 100%; height: auto; margin: 0; border-radius: .5rem; }
 .activity-gallery figcaption { font-size: .875rem; margin-top: .75rem; line-height: 1.6; }
 .activity-gallery figcaption strong, .activity-gallery figcaption span { display: block; }
 .dark .presentation-card, .dark .activity-gallery figure { border-color: #475569; }
-.dark .presentation-labels > * { background: #312e81; color: #e0e7ff; }
 @media (max-width: 480px) { .presentation-card { padding: 1rem; } .numbered-publication { grid-template-columns: 2.25rem minmax(0, 1fr); } }
+
+.publication-list { width: min(100%, 56rem); margin: 1.5rem auto; padding: 0 1.5rem; }
+.numbered-publication { margin: 0 0 .65rem; line-height: 1.55; }
+.publication-list .numbered-publication:last-child { margin-bottom: 0; }
+.citation-text, .citation-links { display: inline; }
+.citation-links { white-space: nowrap; }
+.citation-link { margin-left: .25rem; font-size: .9375rem; text-decoration: underline; }
+.citation-text > a:hover { text-decoration: underline; }
+.prose .chinese-publications { width: 100%; padding: 0; margin: 1rem 0; font-size: 1rem; line-height: 1.55; }
+.prose .chinese-publications a { overflow-wrap: anywhere; }
+.presentation-details { margin: 0 0 .5rem; font-size: 1rem; line-height: 1.6; }
+.presentation-details > div { display: grid; grid-template-columns: 6.5rem minmax(0,1fr); gap: .5rem; }
+.presentation-details dt { font-weight: 600; }
+.presentation-details dd { margin: 0; }
+.presentation-detail-link { text-decoration: underline; font-size: .9375rem; }

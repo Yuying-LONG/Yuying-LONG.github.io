@@ -27,7 +27,7 @@ publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Transactions on Engineering Management*
-publication_short: In *IEEE TEM*
+publication_short: In *IEEE Transactions on Engineering Management*
 
 abstract: Efficient urban emergency response is vital for saving lives and property after disasters. However, urban emergency response is challenging because it involves many demands, with a very tight time for making decisions, and is frequently threatened by the disruption of road networks and infrastructures. Taking these challenges into consideration, this article proposes a dynamic truck-UAV (DTU) collaboration strategy to realize efficient and resilient urban emergency response. Specifically, a DTU collaboration strategy is first proposed based on the characteristics of urban emergency management. Then, an integrated truck-UAV collaborative scheduling model is developed and indicated to be an NP-hard problem. Then, a tabu search-based integrated (TSI) scheduling algorithm is developed, with several tailored local search operators and a recursion-based evaluation (RE) algorithm. Finally, comprehensive experiments are conducted to demonstrate the superiority of our proposed strategy over existing truck-UAV collaboration strategies and verify the performance of our proposed solution algorithm.
 

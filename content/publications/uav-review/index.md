@@ -26,7 +26,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2023 International Society of Transdisciplinary Engineering*
-publication_short: In *2023ISTE*
+publication_short: In *2023 International Society of Transdisciplinary Engineering*
 
 abstract: ''
 
