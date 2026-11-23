@@ -1,7 +1,13 @@
 {{ $item := .item }}
 {{ $country := $item.Params.address.country | default "" }}
 <li class="presentation-entry">
-  <h2><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
-  <p class="presentation-event">{{ $item.Params.event }}</p>
-  <p class="presentation-meta"><time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 2, 2006" }}</time> · {{ $item.Params.location }}{{ if and $country (ne $country $item.Params.location) }}, {{ $country }}{{ end }} · <a href="{{ $item.RelPermalink }}">Details</a></p>
+  <div class="presentation-when">
+    <time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 2, 2006" }}</time>
+    <span>{{ $item.Params.location }}{{ if and $country (ne $country $item.Params.location) }}, {{ $country }}{{ end }}</span>
+  </div>
+  <div class="presentation-description">
+    <h2><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
+    <p class="presentation-event">{{ $item.Params.event }}</p>
+    <a class="presentation-detail-link" href="{{ $item.RelPermalink }}">Details</a>
+  </div>
 </li>

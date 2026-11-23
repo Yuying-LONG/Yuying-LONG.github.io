@@ -6,6 +6,9 @@ event: '2023 International Symposium on Emergency Management'
 event_url: ""
 
 location: Wuhan
+coordinates:
+  latitude: 30.5928
+  longitude: 114.3055
 address: 
   street: 
   postcode: 

@@ -34,17 +34,17 @@ layout: single
 - **Safety, Reliability and Compliance**：香港理工大学，2023、2024、2025 年春季，助教。
 - **Fleet Management and Aviation Sustainability**：香港理工大学，2023 年秋季，助教。
 - **Artificial Intelligence in Aviation Industry**：香港理工大学，2022 年秋季，助教。
-- **Mathematical Programming**：哈尔滨工业大学（深圳），2022 年春季，助教。
+- **数学规划**：哈尔滨工业大学（深圳），2022 年春季，助教。
 
 ## 学术服务
 
-担任 *Nature Humanities and Social Sciences Communications*、*International Journal of Production Economics*、*International Journal of Disaster Risk Reduction*、*Applied Soft Computing*、*Reliability Engineering & System Safety*、*Socio-Economic Planning Sciences*、*Vehicular Communications*、*Knowledge-Based Systems*、*Expert Systems With Applications*、*Frontiers of Engineering Management*、*Research in Transportation Business & Management*、*Neurocomputing* 期刊审稿人。
+- 学术审稿人：担任 *Nature Humanities and Social Sciences Communications*、*International Journal of Production Economics*、*International Journal of Disaster Risk Reduction*、*Applied Soft Computing*、*Reliability Engineering & System Safety*、*Socio-Economic Planning Sciences*、*Knowledge-Based Systems*、*Expert Systems With Applications*、*Frontiers of Engineering Management*、*Research in Transportation Business & Management*等期刊匿名审稿人。
 
-- 分会场主席：IEEE IEEM，2023。
-- 会议审稿：IEEE SMC，2023。
-- 会务助理：第 28 届 ATRS 世界大会，2025。
+- 分会场主席：2023 IEEE International Conference on Industrial Engineering and Engineering Management，2023。
+- 会议审稿：2023 IEEE International Conference on Systems, Man, and Cybernetics，2023。
+- 会务助理：The 28th Air Transport Research Society World Conference，2025。
 
-## 荣誉奖励（精选）
+## 奖项与荣誉
 
 - 香港特区政府奖学基金 Reaching Out Award，2025/26。
 - 香港理工大学博士生国际合作研究资助，2025。
@@ -53,6 +53,6 @@ layout: single
 - 哈尔滨工业大学优秀硕士学位论文，2022。
 - 国家励志奖学金，2019。
 
-## 个人兴趣
+## 个人爱好
 
 - 羽毛球 🏸、乒乓球 🏓、徒步 🥾、阅读 📚。

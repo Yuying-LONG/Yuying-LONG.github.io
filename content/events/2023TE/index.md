@@ -6,6 +6,9 @@ event: TE2023 Leveraging Transdisciplinary Engineering in a Changing and Connect
 event_url: ""
 
 location: 'Hua Hin Cha Am'
+coordinates:
+  latitude: 12.5684
+  longitude: 99.9577
 address: 
   street: ""
   postcode: ""

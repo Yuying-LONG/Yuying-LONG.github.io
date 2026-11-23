@@ -1,0 +1,23 @@
+<section class="presentation-footprints" aria-labelledby="footprint-heading">
+  <h2 id="footprint-heading">Presentation Footprints</h2>
+  <p>Click a city to view the presentation details.</p>
+  <div class="footprint-map">
+    {{ with resources.Get "media/presentation-footprints.svg" }}
+      <img class="footprint-basemap" src="{{ .RelPermalink }}" width="900" height="620" alt="" aria-hidden="true" loading="lazy">
+    {{ end }}
+    {{ with site.GetPage "/events" }}
+      {{ range .RegularPages.ByDate.Reverse }}
+        {{ $item := . }}
+        {{ with .Params.coordinates }}
+          {{ $left := mul (div (sub .longitude 70.0) 80.0) 100.0 }}
+          {{ $top := mul (div (sub 45.0 .latitude) 55.0) 100.0 }}
+          <a class="footprint-pin" style="{{ printf "left: %.4f%%; top: %.4f%%;" $left $top | safeCSS }}" href="{{ $item.RelPermalink }}" aria-label="{{ $item.Params.location }}: {{ $item.Params.event }}, {{ $item.Date.Format "Jan 2, 2006" }}">
+            <span class="footprint-dot" aria-hidden="true"></span>
+            <span class="footprint-city">{{ $item.Params.location }}</span>
+          </a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+  <p class="footprint-credit">Map data: <a href="https://www.naturalearthdata.com/">Natural Earth</a>.</p>
+</section>

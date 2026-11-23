@@ -25,10 +25,31 @@
 .prose .chinese-publications { width: 100%; padding: 0; margin: 1rem 0; font-size: 1rem; line-height: 1.55; }
 .prose .chinese-publications a { overflow-wrap: anywhere; }
 
-.presentation-list { width: min(100%, 56rem); margin: 1.5rem auto; padding: 0 1.5rem 0 2.75rem; list-style: disc; }
-.presentation-entry { padding: 0 0 1rem .25rem; margin-bottom: 1rem; border-bottom: 1px solid #cbd5e1; }
-.presentation-entry:last-child { margin-bottom: 0; border-bottom: 0; }
-.presentation-entry h2 { font-size: 1.125rem; line-height: 1.5; font-weight: 700; margin: 0 0 .35rem; }
-.presentation-entry p { font-size: 1rem; line-height: 1.6; margin: .2rem 0; }
-.presentation-entry a:hover, .presentation-meta a { text-decoration: underline; }
-.dark .presentation-entry { border-color: #475569; }
+
+.presentation-list { width: min(100%, 56rem); margin: 1.5rem auto; padding: 0 1.5rem; list-style: none; }
+.presentation-entry { display: grid; grid-template-columns: 11rem minmax(0,1fr); margin-bottom: 1.5rem; }
+.presentation-when { display: flex; flex-direction: column; gap: .35rem; padding: .15rem 1rem 0 0; font-size: .9375rem; line-height: 1.6; }
+.presentation-description { border-left: 1px solid #cbd5e1; padding-left: 1.5rem; }
+.presentation-description h2 { font-size: 1.125rem; line-height: 1.5; font-weight: 700; margin: 0 0 .35rem; }
+.presentation-description p { font-size: 1rem; line-height: 1.6; margin: .2rem 0; }
+.presentation-description a:hover, .presentation-detail-link { text-decoration: underline; }
+.presentation-detail-link { font-size: .9375rem; }
+.presentation-footprints { width: min(100%, 56rem); padding: 1.5rem; margin: 1rem auto; }
+.presentation-footprints h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: .5rem; }
+.presentation-footprints > p { font-size: 1rem; line-height: 1.6; margin-bottom: 1rem; }
+.footprint-map { position: relative; overflow: hidden; border: 1px solid #cbd5e1; border-radius: .75rem; }
+.footprint-basemap { display: block; width: 100%; height: auto; }
+.footprint-pin { position: absolute; display: flex; align-items: center; gap: .4rem; transform: translate(-.375rem,-50%); color: #312e81; font-size: .875rem; font-weight: 600; line-height: 1.5; white-space: nowrap; }
+.footprint-dot { width: .75rem; height: .75rem; border-radius: 50%; background: #4338ca; border: 2px solid white; box-shadow: 0 0 0 2px #4338ca; flex-shrink: 0; }
+.footprint-city { background: #ffffffed; padding: .15rem .4rem; border-radius: .3rem; }
+.footprint-pin:hover .footprint-city, .footprint-pin:focus-visible .footprint-city { background: #e0e7ff; text-decoration: underline; }
+.footprint-pin:focus-visible { outline: 2px solid #4338ca; outline-offset: 4px; border-radius: .2rem; }
+.presentation-footprints .footprint-credit { font-size: .875rem; margin-top: .5rem; }
+.footprint-credit a { text-decoration: underline; }
+.dark .presentation-description { border-color: #475569; }
+@media (max-width: 640px) {
+  .presentation-entry { grid-template-columns: minmax(0,1fr); }
+  .presentation-when { flex-direction: row; flex-wrap: wrap; gap: .5rem; padding: 0 0 .5rem; }
+  .presentation-when span::before { content: "· "; }
+  .presentation-description { padding-left: 0; border-left: 0; }
+}

@@ -5,6 +5,9 @@ event: 2025 INFORMS International Meeting
 event_url: ""
 
 location: Singapore
+coordinates:
+  latitude: 1.3521
+  longitude: 103.8198
 address: 
   street: 80 Bras Basah Road
   postcode: '189560'
