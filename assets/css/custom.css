@@ -53,3 +53,8 @@
   .presentation-when span::before { content: "· "; }
   .presentation-description { padding-left: 0; border-left: 0; }
 }
+
+.footprint-map > svg { display: block; width: 100%; height: auto; }
+.footprint-legend { list-style: disc; padding-left: 1.25rem; margin: 1rem 0; font-size: .9375rem; line-height: 1.6; }
+.footprint-legend li { margin-bottom: .35rem; }
+.footprint-legend a { text-decoration: underline; }

@@ -1,0 +1,5 @@
+<ul>
+{{ with site.GetPage "/events" }}{{ range .RegularPages.ByDate.Reverse }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>，{{ .Params.event }}，{{ .Params.location }}{{ with .Params.address.country }}，{{ . }}{{ end }}，{{ .Date.Format "2006.01.02" }}</li>
+{{ end }}{{ end }}
+</ul>
