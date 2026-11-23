@@ -123,7 +123,9 @@ awards:
 
 ---
 
-Yuying Long is currently pursuing a Ph.D. degree from [The Hong Kong Polytechnic University, Hong Kong](https://www.polyu.edu.hk/aae/), supervised by [Dr. Gangyan XU](http://xugangyan.cn/index.html). During her Ph.D. studies, she was a visiting scholar at Technical University of Munich, hosted by [Prof. Stefan Minner](https://www.ot.mgt.tum.de/log/team/minner/). She received a B.S. in traffic and transportation from [Southwest Jiaotong University, Chengdu, China](https://ctt.swjtu.edu.cn/yethan/WebIndexAction), and an M.E. degree in transportation engineering from [Harbin Institute of Technology (Shenzhen), Shenzhen, China](https://www.hitsz.edu.cn/), in 2020 and 2022, respectively.
+Yuying Long is a PhD candidate in Systems Engineering at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/aae/), under the supervision of [Dr. Gangyan Xu](http://xugangyan.cn/index.html). During her doctoral studies, she was a visiting scholar at the Technical University of Munich, hosted by [Prof. Stefan Minner](https://www.ot.mgt.tum.de/log/team/minner/). She received her bachelor’s degree from [Southwest Jiaotong University](https://ctt.swjtu.edu.cn/yethan/WebIndexAction) in 2020 and her master’s degree from [Harbin Institute of Technology (Shenzhen)](https://www.hitsz.edu.cn/) in 2022.
+
+Her research focuses on humanitarian operations and intelligent decision-making, with an emphasis on dynamic resource allocation, UAV-assisted systems, and fairness in emergency response. In her future research, she aims to integrate operations research with artificial intelligence, particularly large language models, to support efficient, fair, and human-centered operational decisions under uncertainty.
 
 <p>
   <font color="red">
