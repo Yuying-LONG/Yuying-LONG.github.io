@@ -2,7 +2,7 @@
 title: '中文简历'
 date: 2026-11-23
 summary: '龙玉莹的教育背景、研究兴趣、学术论文及科研服务。'
-layout: single
+layout: chinese-cv
 ---
 
 龙玉莹，香港理工大学系统工程博士在读，已完成博士论文答辩，导师为 [Dr. Gangyan Xu](http://xugangyan.cn/index.html)。2020 年获西南交通大学交通运输学士学位，2022 年获哈尔滨工业大学（深圳）交通运输硕士学位。博士期间赴慕尼黑工业大学访问，合作导师为 [Stefan Minner](https://www.ot.mgt.tum.de/log/team/minner/)。主要研究应急运作与智能决策，相关成果发表于 *Advanced Engineering Informatics*、*IEEE Transactions on Engineering Management*、*European Journal of Operational Research* 等期刊。
