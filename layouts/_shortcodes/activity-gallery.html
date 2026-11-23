@@ -1,0 +1,16 @@
+<div class="activity-gallery">
+{{ range .Page.Params.albums }}
+  {{ $album := . }}
+  {{ with site.GetPage $album.page }}
+    {{ with (.Resources.ByType "image").GetMatch "featured.*" }}
+      {{ $photo := .Fit "1200x1000 webp q85" }}
+      <figure>
+        <a href="{{ .RelPermalink }}" aria-label="View full photo: {{ $album.title }}">
+          <img src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" alt="{{ $album.title }} — {{ $album.context }}" loading="lazy" decoding="async">
+        </a>
+        <figcaption><strong>{{ $album.title }}</strong><span>{{ $album.context }}</span></figcaption>
+      </figure>
+    {{ end }}
+  {{ end }}
+{{ end }}
+</div>

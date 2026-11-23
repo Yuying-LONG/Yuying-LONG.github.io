@@ -78,11 +78,11 @@ education:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 
-languages:
-  - name: Mandarin
-    percent: 100
-  - name: English
-    percent: 80
+# languages:
+#   - name: Mandarin
+#     percent: 100
+#   - name: English
+#     percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.

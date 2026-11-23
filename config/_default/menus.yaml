@@ -7,7 +7,7 @@ main:
   - name: Publications
     url: /publications/
     weight: 11
-  - name: Talks
+  - name: Presentations
     url: /events/
     weight: 12
   - name: News
@@ -22,3 +22,6 @@ main:
   - name: Chinese
     url: /chinese/
     weight: 50
+  - name: Gallery
+    url: /gallery/
+    weight: 45

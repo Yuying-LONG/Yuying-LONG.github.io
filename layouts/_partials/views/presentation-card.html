@@ -1,0 +1,14 @@
+{{ $item := .item }}
+{{ $country := $item.Params.address.country | default "" }}
+<article class="presentation-card" aria-labelledby="presentation-{{ $item.File.UniqueID }}">
+  <div class="presentation-labels">
+    <time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 2, 2006" }}</time>
+    <span>{{ $item.Params.location }}{{ if and $country (ne $country $item.Params.location) }}, {{ $country }}{{ end }}</span>
+    <span class="presentation-conference">{{ $item.Params.event }}</span>
+  </div>
+  <h2 id="presentation-{{ $item.File.UniqueID }}"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h2>
+  {{ with ($item.Resources.ByType "image").GetMatch "featured.*" }}
+    {{ $photo := .Fit "1000x800 webp q85" }}
+    <a href="{{ $item.RelPermalink }}"><img src="{{ $photo.RelPermalink }}" width="{{ $photo.Width }}" height="{{ $photo.Height }}" loading="lazy" decoding="async" alt="Presentation at {{ $item.Params.event }}"></a>
+  {{ end }}
+</article>
