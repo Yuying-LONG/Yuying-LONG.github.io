@@ -19,3 +19,6 @@ main:
   - name: Services
     url: services/
     weight: 40
+  - name: Chinese
+    url: /chinese/
+    weight: 50

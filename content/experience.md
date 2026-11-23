@@ -18,12 +18,13 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
+  - block: markdown
     content:
       title: Skills & Hobbies
-      username: admin
+      text: |-
+        Badminton 🏸 · Table Tennis 🏓 · Hiking · Reading
     design:
-      show_skill_percentage: false
+      columns: '1'
   - block: resume-awards
     content:
       title: Awards
