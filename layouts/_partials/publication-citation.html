@@ -11,7 +11,7 @@
     {{ else }}
       {{ range $index, $author := ($item.GetTerms "authors") }}
         {{- if gt $index 0 }}, {{ end -}}
-        <a href="{{ .RelPermalink }}"{{ if .Page.Params.highlight_name }} class="font-bold"{{ end }}>{{ .LinkTitle }}</a>
+        {{ if .RelPermalink }}<a href="{{ .RelPermalink }}"{{ if .Page.Params.highlight_name }} class="font-bold"{{ end }}>{{ .LinkTitle }}</a>{{ else }}<span{{ if .Page.Params.highlight_name }} class="font-bold"{{ end }}>{{ .LinkTitle }}</span>{{ end }}
         {{- if and $item.Params.author_notes (lt $index (len $item.Params.author_notes)) -}}
           {{- with index $item.Params.author_notes $index -}}<sup title="{{ . }}">*</sup>{{- end -}}
         {{- end -}}
