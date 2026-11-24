@@ -37,7 +37,7 @@ sections:
       padding:
       - 2rem
       - '0'
-      - 4rem
+      - 1rem
       - '0'
 - block: visitor-records
   id: visitors
@@ -46,8 +46,8 @@ sections:
   design:
     spacing:
       padding:
-      - 1rem
       - '0'
-      - 3rem
+      - '0'
+      - 1rem
       - '0'
 ---

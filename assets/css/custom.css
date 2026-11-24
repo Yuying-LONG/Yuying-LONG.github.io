@@ -229,14 +229,20 @@ html { scrollbar-gutter: stable; }
 }
 .page-body .citation-text { text-wrap: pretty; }
 
-/* A single live visitor counter at the bottom of Bio. */
-.visitor-records-section { width: min(100%, 68rem); margin: 0 auto; padding: 0 1.5rem; text-align: center; }
-.visitor-records-section > h2 { margin: 0 0 .5rem; font-weight: 700; }
-.visitor-records-intro { margin: 0 0 1rem; font-size: var(--site-meta-size); }
-.visitor-records-card { display: grid; place-items: center; box-sizing: border-box; width: min(100%, 20rem); margin: 0 auto; padding: 1rem; border: 1px solid #cbd5e1; border-radius: .75rem; background: #fff; box-shadow: 0 4px 12px #0f172a0a; }
-.visitor-records-card a { display: block; max-width: 100%; border-radius: .25rem; }
-.visitor-records-card a:focus-visible { outline: 2px solid #4f46e5; outline-offset: 4px; }
-.visitor-records-card img { display: block; max-width: 100%; height: auto; margin: 0; color: #374151; font-size: .875rem; }
-.visitor-records-note { margin: .75rem 0 0; font-size: .8125rem; color: #475569; }
-.dark .visitor-records-card { border-color: #475569; }
-.dark .visitor-records-note { color: #cbd5e1; }
+/* Compact Bio visitor panel, anchored to the bottom-right content corner. */
+.visitor-records-section { display: flex; justify-content: flex-end; box-sizing: border-box; width: 100%; max-width: 86rem; margin: 0 auto; padding: 0 2rem; }
+.visitor-records-widget { position: relative; width: max-content; }
+.visitor-records-widget > summary { display: flex; align-items: center; gap: .6rem; min-height: 2.25rem; padding: .2rem .65rem; border: 1px solid #cbd5e1; border-radius: .4rem; color: #475569; background: #ffffffb8; cursor: pointer; list-style: none; font-size: .8125rem; line-height: 1.4; }
+.visitor-records-widget > summary::-webkit-details-marker { display: none; }
+.visitor-records-widget > summary:hover { color: #3730a3; border-color: #a5b4fc; }
+.visitor-records-widget > summary:focus-visible, .visitor-records-card a:focus-visible { outline: 2px solid #4f46e5; outline-offset: 3px; }
+.visitor-records-chevron { display: inline-block; font-size: 1rem; }
+.visitor-records-widget[open] .visitor-records-chevron { transform: rotate(180deg); }
+.visitor-records-card { position: absolute; right: 0; bottom: calc(100% + .5rem); z-index: 10; box-sizing: border-box; width: 12rem; padding: .75rem; border: 1px solid #cbd5e1; border-radius: .5rem; background: #fff; color: #374151; box-shadow: 0 4px 16px #0f172a14; text-align: left; }
+.visitor-records-intro { margin: 0 0 .5rem; font-size: .75rem; line-height: 1.5; }
+.visitor-records-card a, .visitor-records-card img { display: block; max-width: 100%; }
+.visitor-records-card img { height: auto; margin: 0; color: #374151; font-size: .75rem; }
+.visitor-records-note { margin: .5rem 0 0; font-size: .6875rem; line-height: 1.5; color: #64748b; }
+.dark .visitor-records-widget > summary { color: #cbd5e1; background: #1e293bb8; border-color: #475569; }
+.dark .visitor-records-widget > summary:hover { color: #c7d2fe; border-color: #6366f1; }
+@media (max-width: 640px) { .visitor-records-section { padding: 0 1rem; } }

@@ -1,14 +1,17 @@
-{{ $block := .wcBlock }}
-<div class="visitor-records-section" aria-labelledby="visitor-records-title">
-  <h2 id="visitor-records-title">{{ $block.content.title | default "Visitors" }}</h2>
-  <p class="visitor-records-intro">Top 5 countries / regions</p>
-  <div class="visitor-records-card">
-    {{/* Keep one eager, external image: each Bio page load records one pageview. */}}
-    <a href="https://flagcounter.me/details/kPs" target="_blank" rel="noopener noreferrer" aria-label="View visitor statistics">
-      <img src="https://flagcounter.me/kPs"
-           alt="Live visitor statistics: top five countries or regions and total pageviews. Open the statistics page for details."
-           width="158" height="160" loading="eager" decoding="async">
-    </a>
-  </div>
-  <p class="visitor-records-note">Since Nov 24, 2026 · Pageviews include repeat visits.</p>
+<div class="visitor-records-section">
+  <details class="visitor-records-widget">
+    <summary title="Visitor origins and cumulative Bio pageviews">
+      Visitors <span class="visitor-records-chevron" aria-hidden="true">⌃</span>
+    </summary>
+    <div class="visitor-records-card">
+      <p class="visitor-records-intro">Top 5 countries / regions</p>
+      {{/* Eager loading keeps counting Bio views while the panel is closed. */}}
+      <a href="https://flagcounter.me/details/kPs" target="_blank" rel="noopener noreferrer" aria-label="View visitor statistics">
+        <img src="https://flagcounter.me/kPs"
+             alt="Live visitor statistics: top five countries or regions and total pageviews."
+             width="158" height="160" loading="eager" decoding="async">
+      </a>
+      <p class="visitor-records-note">Since Nov 24, 2026<br>Pageviews include repeat visits.</p>
+    </div>
+  </details>
 </div>
