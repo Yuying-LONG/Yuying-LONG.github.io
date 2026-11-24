@@ -1,0 +1,16 @@
+{{ $block := .wcBlock }}
+{{ $person := site.GetPage (printf "/authors/%s" ($block.content.username | default "admin")) }}
+<div class="education-section">
+  <h2>{{ $block.content.title }}</h2>
+  <div class="education-grid">
+    {{ range $person.Params.education }}
+    <article class="education-card">
+      <div class="education-icon" aria-hidden="true">{{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "class='w-6 h-6'") }}</div>
+      <span class="education-kind">{{ .kind }}</span>
+      <h3>{{ .area }}</h3>
+      <p>{{ .institution }}</p>
+      <p class="education-dates"><time datetime="{{ (time .date_start).Format "2006-01" }}">{{ (time .date_start).Format "Jan 2006" }}</time> – {{ with .date_end }}<time datetime="{{ (time .).Format "2006-01" }}">{{ (time .).Format "Jan 2006" }}</time>{{ else }}Present{{ end }}</p>
+    </article>
+    {{ end }}
+  </div>
+</div>

@@ -24,8 +24,8 @@ publishDate: '2024-10-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Journal of Safety Science and Technology*
-publication_short: In *Journal of Safety Science and Technology*
+publication: "*Journal of Safety Science and Technology*, 20(11), 5–13"
+publication_short: "*Journal of Safety Science and Technology*, 20(11), 5–13"
 
 abstract: ""
 

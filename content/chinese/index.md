@@ -11,7 +11,7 @@ layout: chinese-cv
 
 - 邮箱：[yuying.long@connect.polyu.hk](mailto:yuying.long@connect.polyu.hk)
 - 个人主页：[Yuying Long](/)
-- 学术主页：[Google Scholar](https://scholar.google.com/citations?user=1MRupSUAAAAJ&hl=zh-CNor)
+- 学术主页：[Google Scholar](https://scholar.google.com/citations?user=1MRupSUAAAAJ&hl=zh-CN)
 - [GitHub](https://github.com/Yuying-LONG) · [LinkedIn](https://www.linkedin.com/in/yuying-long-929742226/)
 
 ## 教育与访学背景
@@ -45,19 +45,14 @@ layout: chinese-cv
 
 ## 科研服务
 
-- 学术审稿人：担任 *Nature Humanities and Social Sciences Communications*、*International Journal of Production Economics*、*International Journal of Disaster Risk Reduction*、*Applied Soft Computing*、*Reliability Engineering & System Safety*、*Socio-Economic Planning Sciences*、*Knowledge-Based Systems*、*Expert Systems With Applications*、*Frontiers of Engineering Management*、*Research in Transportation Business & Management*等期刊匿名审稿人。
+- 学术审稿人：担任 *Humanities and Social Sciences Communications*、*International Journal of Production Economics*、*International Journal of Disaster Risk Reduction*、*Applied Soft Computing*、*Reliability Engineering & System Safety*、*Socio-Economic Planning Sciences*、*Knowledge-Based Systems*、*Expert Systems with Applications*、*Frontiers of Engineering Management*、*Research in Transportation Business & Management*等期刊匿名审稿人。
 - 分会场主席：2023 IEEE International Conference on Industrial Engineering and Engineering Management
 - 会议审稿：2023 IEEE International Conference on Systems, Man, and Cybernetics
 - 会务助理：The 28th Air Transport Research Society World Conference，2025 年 7 月，中国香港
 
 ## 奖项与荣誉
 
-- 香港特区政府奖学基金 Reaching Out Award，2025/26
-- 香港理工大学博士生国际合作研究资助，2025
-- 香港理工大学 Research Student Attachment Programme 资助，2025
-- 应急管理国际学术会议最佳论文二等奖，2023
-- 哈尔滨工业大学优秀硕士学位论文，2022
-- 国家励志奖学金，2019
+{{< selected-awards >}}
 
 ## 个人爱好
 

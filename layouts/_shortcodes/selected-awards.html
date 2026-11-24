@@ -1,0 +1,7 @@
+<ul class="chinese-awards-list">
+{{ with site.GetPage "/authors/admin" }}
+  {{ range sort .Params.awards "date" "desc" }}
+  <li><strong>{{ .title_zh | default .title }}</strong> — {{ .awarder_zh | default .awarder }}{{ with .date }}，{{ (time .).Format "2006" }}{{ end }}。</li>
+  {{ end }}
+{{ end }}
+</ul>

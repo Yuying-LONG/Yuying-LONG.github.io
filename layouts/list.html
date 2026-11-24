@@ -7,6 +7,9 @@
   </article>
 </div>
 
+{{ if eq .Section "publications" }}
+  {{ partial "grouped-publications.html" (dict "language" "en") }}
+{{ else }}
 {{ $view := .Params.view | default "card" }}
 {{ $block := . }}
 
@@ -52,3 +55,4 @@
 
 {{ end }}
 
+{{ end }}

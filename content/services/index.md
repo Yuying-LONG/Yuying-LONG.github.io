@@ -17,14 +17,14 @@ layout: teaching-service
 
 I have served as an anonymous reviewer for the following journals:
 
-*   Nature Humanities and Social Sciences Communications
+*   Humanities and Social Sciences Communications
 *   International Journal of Production Economics
 *   International Journal of Disaster Risk Reduction
 *   Applied Soft Computing
 *   Reliability Engineering & System Safety
 *   Socio-Economic Planning Sciences
 *   Knowledge-Based Systems
-*   Expert Systems With Applications
+*   Expert Systems with Applications
 *   Frontiers of Engineering Management
 *   Research in Transportation Business & Management
 

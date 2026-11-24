@@ -25,8 +25,8 @@ publishDate: '2025-12-19T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)*
-publication_short: In *2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)*
+publication: "In *2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 3894–3899"
+publication_short: "In *2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, 3894–3899"
 
 abstract: ''
 

@@ -1,0 +1,29 @@
+{{ $block := .wcBlock }}
+<div class="featured-research-section">
+  <h2>{{ $block.content.title }}</h2>
+  <p class="featured-research-intro">{{ $block.content.text }}</p>
+  <div class="featured-research-grid">
+    {{ range (where (where site.RegularPages "Section" "publications") "Params.featured" true).ByDate.Reverse }}
+    {{ $item := . }}
+    {{ if and .Params.authors (eq (index .Params.authors 0) "admin") }}
+    <article class="featured-research-card">
+      {{ with partial "functions/get_featured_image.html" . }}
+        {{ $image := .Fit "900x520" }}
+        <a class="featured-research-image" href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title }}"><img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $item.Title }} — research overview" loading="lazy"></a>
+      {{ end }}
+      <div class="featured-research-body">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="featured-research-venue">{{ .RenderString (dict "display" "inline") .Params.publication }} · {{ .Date.Format "2006" }}</p>
+        <p class="featured-research-summary">{{ .Params.summary }}</p>
+        <div class="featured-research-links">
+          {{ with .Resources.GetMatch "*.pdf" }}<a href="{{ .RelPermalink }}">PDF</a>{{ end }}
+          {{ with .Params.hugoblox.ids.doi }}<a href="https://doi.org/{{ . }}">DOI</a>{{ end }}
+          <a href="{{ .RelPermalink }}">Details</a>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+  <p class="featured-research-all"><a href="{{ with site.GetPage "/publications" }}{{ .RelPermalink }}{{ end }}">View all publications</a></p>
+</div>

@@ -1,9 +1,3 @@
-  /* Keep the four Bio education cards in two columns on larger screens. */
-  @media (min-width: 768px) {
-    .blox-resume-biography-3 .grid.xl\:grid-cols-3 {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
 
 .numbered-publication { display: grid; grid-template-columns: 2.75rem minmax(0, 1fr); gap: .5rem; align-items: start; }
 .publication-number { font-size: 1rem; font-weight: 600; padding-top: .05rem; }
@@ -175,19 +169,40 @@ body.page-wrapper { isolation: isolate; }
 .page-body article.md\:grid p { font-size: var(--site-text-size); line-height: 1.75; }
 .page-body .max-w-prose.grid > .text-2xl { font-size: var(--site-card-title-size); line-height: 1.45; }
 
-/* Center the Education heading and the four cards within the Bio grid. */
-.blox-resume-biography-3 .mb-16:has(> .grid.xl\:grid-cols-3) > .flex { justify-content: center; }
-.blox-resume-biography-3 .grid.xl\:grid-cols-3 > .group { text-align: center; justify-content: center; }
-.blox-resume-biography-3 .grid.xl\:grid-cols-3 > .group > .flex { flex-direction: column; align-items: center; }
-.blox-resume-biography-3 .grid.xl\:grid-cols-3 > .group > .flex > .flex-1 { flex: initial; }
-
-/* Place Education below the profile and summary, centered across the Bio area. */
-.blox-resume-biography-3 .md\:col-span-8 { display: contents; }
-.blox-resume-biography-3 .md\:col-span-8 > div { min-width: 0; }
-.blox-resume-biography-3 .md\:col-span-8 > .mb-16:has(> .grid.xl\:grid-cols-3) { grid-column: 1 / -1; width: min(100%, 64rem); justify-self: center; margin-bottom: 0; }
-@media (min-width: 768px) { .blox-resume-biography-3 .md\:col-span-8 > .mb-12 { grid-column: 5 / -1; } }
-.blox-resume-biography-3 .resume-biography { padding-bottom: 3rem; }
-
 /* Reserve the same horizontal space before and after page navigation. */
 html { scrollbar-gutter: stable; }
 .page-body { width: 100%; min-width: 0; }
+
+/* Shared presentation for the home research and education sections. */
+.blox-resume-biography-3 .resume-biography { padding-top: 1rem; padding-bottom: 0; }
+.featured-research-section, .education-section { width: min(100%, 68rem); margin: 0 auto; padding: 0 1.5rem; }
+.featured-research-section > h2, .education-section > h2 { text-align: center; margin: 0 0 1rem; font-weight: 700; }
+.featured-research-intro, .featured-research-all { text-align: center; margin: 1rem 0 1.5rem; }
+.featured-research-grid, .education-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.featured-research-card, .education-card { min-width: 0; border: 1px solid #cbd5e1; border-radius: .75rem; background: #ffffffb8; box-shadow: 0 4px 12px #0f172a0a; }
+.featured-research-card { display: flex; flex-direction: column; overflow: hidden; }
+.featured-research-image { display: block; background: #ffffff80; padding: .75rem; }
+.featured-research-image img { display: block; width: 100%; height: 200px; object-fit: contain; }
+.featured-research-body { padding: 1.25rem; display: flex; flex-direction: column; flex: 1; }
+.featured-research-body h3 { margin: 0 0 .75rem; font-weight: 700; }
+.featured-research-venue { font-size: var(--site-meta-size); margin: 0 0 .75rem; }
+.featured-research-summary { flex: 1; margin: 0 0 1rem; }
+.featured-research-links, .job-market-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.featured-research-links a, .job-market-links a { display: inline-block; padding: .35rem .75rem; border: 1px solid #a5b4fc; border-radius: .4rem; color: #3730a3; font-weight: 600; text-decoration: none; }
+.featured-research-links a:hover, .job-market-links a:hover { background: #e0e7ff; text-decoration: underline; }
+.featured-research-all a { text-decoration: underline; }
+.job-market-links { margin-top: .75rem; }
+.education-card { text-align: center; padding: 1.5rem; }
+.education-icon { display: flex; align-items: center; justify-content: center; width: 2.75rem; height: 2.75rem; margin: 0 auto .75rem; border-radius: 50%; color: white; background: #4f46e5; }
+.education-kind { display: block; color: #475569; font-size: .8125rem; margin-bottom: .4rem; }
+.education-card h3 { font-weight: 700; margin: 0 0 .5rem; }
+.education-card p { margin: .25rem 0; }
+.education-card .education-dates { font-size: var(--site-meta-size); color: #475569; }
+.publication-group + .publication-group { margin-top: 2rem; }
+.page-body .publication-group-title { font-size: 1.125rem; line-height: 1.4; font-weight: 700; margin: 0 0 1rem; }
+.dark .featured-research-card, .dark .education-card { background: #1e293bb8; border-color: #475569; }
+.dark .featured-research-image { background: #ffffffed; }
+.dark .education-kind, .dark .education-card .education-dates { color: #cbd5e1; }
+.dark .featured-research-links a, .dark .job-market-links a { color: #c7d2fe; border-color: #6366f1; }
+.dark .featured-research-links a:hover, .dark .job-market-links a:hover { background: #312e81; }
+@media (max-width: 640px) { .featured-research-grid, .education-grid { grid-template-columns: minmax(0, 1fr); } .featured-research-section, .education-section { padding: 0 1rem; } }

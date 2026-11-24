@@ -25,8 +25,8 @@ publishDate: '2025-07-19T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2023 International Society of Transdisciplinary Engineering*
-publication_short: In *2023 International Society of Transdisciplinary Engineering*
+publication: "In *Leveraging Transdisciplinary Engineering in a Changing and Connected World: Proceedings of the 30th ISTE International Conference on Transdisciplinary Engineering*, 771–780"
+publication_short: "In *Leveraging Transdisciplinary Engineering in a Changing and Connected World: Proceedings of the 30th ISTE International Conference on Transdisciplinary Engineering*, 771–780"
 
 abstract: ''
 

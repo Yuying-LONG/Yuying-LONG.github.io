@@ -1,0 +1,15 @@
+{{ $journals := slice }}
+{{ $conferences := slice }}
+{{ with site.GetPage "/publications" }}
+  {{ range .RegularPages.ByDate.Reverse }}
+    {{ if in .Params.publication_types "article-journal" }}
+      {{ $journals = $journals | append . }}
+    {{ else if in .Params.publication_types "paper-conference" }}
+      {{ $conferences = $conferences | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return (slice
+  (dict "title" "Journal Articles" "title_zh" "期刊论文" "items" $journals)
+  (dict "title" "Conference Papers" "title_zh" "会议论文" "items" $conferences)
+) }}
