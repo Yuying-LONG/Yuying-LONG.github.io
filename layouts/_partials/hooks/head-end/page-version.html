@@ -1,0 +1,37 @@
+{{ $version := partialCached "site-build-version.html" . }}
+{{ $manifest := resources.FromString "site-version.json" (dict "version" $version | jsonify) }}
+<script>
+(() => {
+  const pageVersion = {{ $version | jsonify | safeJS }};
+  const manifestUrl = new URL({{ $manifest.RelPermalink | jsonify | safeJS }}, location.origin);
+  document.documentElement.dataset.siteVersion = pageVersion;
+  function updatePageLinks(version) {
+    for (const link of document.querySelectorAll('a[href]')) {
+      const href = link.getAttribute('href');
+      if (!href || href.startsWith('#')) continue;
+      let url;
+      try { url = new URL(href, location.href); } catch { continue; }
+      if (url.origin !== location.origin || !url.pathname.endsWith('/')) continue;
+      if (url.pathname === location.pathname && url.hash) continue;
+      url.searchParams.set('v', version);
+      link.setAttribute('href', url.pathname + url.search + url.hash);
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => updatePageLinks(pageVersion), {once: true});
+  } else {
+    updatePageLinks(pageVersion);
+  }
+  manifestUrl.searchParams.set('_', String(Date.now()));
+  fetch(manifestUrl, {cache: 'no-store'})
+    .then(response => response.ok ? response.json() : null)
+    .then(current => {
+      if (!current || !current.version || current.version === pageVersion) return;
+      const url = new URL(location.href);
+      if (url.searchParams.get('v') === current.version) return;
+      url.searchParams.set('v', current.version);
+      location.replace(url);
+    })
+    .catch(() => {});
+})();
+</script>
