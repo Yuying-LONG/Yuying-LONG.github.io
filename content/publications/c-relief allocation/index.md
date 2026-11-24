@@ -41,12 +41,12 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: ""
+    doi: '10.11731/j.issn.1673-193x.2024.11.001'
 
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: 'http://aqsckj.paperopen.com/api/api/Web/OpenArticleFilebyGuidNew?Id=d17442b3-a343-4f32-910c-b617ecdfd3b7'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

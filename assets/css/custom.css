@@ -74,3 +74,25 @@
 .chinese-cv-toc a:hover { text-decoration: underline; }
 @media (max-width: 1100px) { .chinese-cv-layout { grid-template-columns: minmax(0,1fr); } .chinese-cv-toc { display: none; } }
 @media (max-width: 640px) { .chinese-cv-layout { padding: 1.5rem 1rem 3rem; } .chinese-cv-article > h1 { font-size: 1.75rem; } }
+
+/* Keep the Bio palette behind every page and section, including long archives. */
+body.page-wrapper { isolation: isolate; }
+#page-bg {
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  height: 100dvh;
+  pointer-events: none;
+  background-image:
+    radial-gradient(at 20% 25%, hsla(212, 80%, 95%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, hsla(160, 80%, 95%, 1) 0px, transparent 50%),
+    radial-gradient(at 25% 80%, hsla(280, 80%, 95%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 85%, hsla(30, 80%, 95%, 1) 0px, transparent 50%);
+}
+.dark #page-bg {
+  background-image:
+    radial-gradient(at 20% 25%, hsla(212, 35%, 15%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 30%, hsla(160, 35%, 15%, 1) 0px, transparent 50%),
+    radial-gradient(at 25% 80%, hsla(280, 35%, 15%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 85%, hsla(30, 35%, 15%, 1) 0px, transparent 50%);
+}

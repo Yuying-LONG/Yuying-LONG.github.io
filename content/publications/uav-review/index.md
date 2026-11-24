@@ -42,12 +42,12 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: ''
+    doi: '10.3233/ATDE230674'
 
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: 'https://journals.sagepub.com/doi/pdf/10.3233/ATDE230674'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

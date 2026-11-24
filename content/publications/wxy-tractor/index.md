@@ -42,12 +42,12 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: ''
+    doi: '10.1109/SMC53992.2023.10394484'
 
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10394484'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
