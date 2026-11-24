@@ -169,3 +169,8 @@ body.page-wrapper { isolation: isolate; }
   .page-body h1,
   .page-body .prose h1 { font-size: 1.625rem; }
 }
+
+/* Keep News entries inside the viewport, including their hover hit areas. */
+.page-body article.md\:grid { margin-inline: 1.5rem; }
+.page-body article.md\:grid p { font-size: var(--site-text-size); line-height: 1.75; }
+.page-body .max-w-prose.grid > .text-2xl { font-size: var(--site-card-title-size); line-height: 1.45; }
