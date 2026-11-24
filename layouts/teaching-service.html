@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="teaching-service-layout">
+  <article class="teaching-service-article">
+    <h1>{{ .Title }}</h1>
+    <div class="prose prose-slate dark:prose-invert teaching-service-content">
+      {{ .Content }}
+    </div>
+  </article>
+  <aside class="teaching-service-toc" aria-label="On this page">
+    <p>On this page</p>
+    {{ .TableOfContents }}
+  </aside>
+</div>
+{{ end }}

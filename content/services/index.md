@@ -3,9 +3,7 @@ title: Teaching & Service
 date: 2025-12-12
 summary: Teaching assistance, journal reviewing, and conference service.
 
-# 这里的 layout 决定了页面长什么样。
-# 默认通常是 single，显示一篇完整的文章。
-layout: single
+layout: teaching-service
 ---
 
 ## Teaching Assistant
