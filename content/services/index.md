@@ -13,7 +13,7 @@ layout: single
 - **Safety, Reliability and Compliance** — The Hong Kong Polytechnic University, Spring 2023, 2024, and 2025.
 - **Fleet Management and Aviation Sustainability** — The Hong Kong Polytechnic University, Fall 2023.
 - **Artificial Intelligence in Aviation Industry** — The Hong Kong Polytechnic University, Fall 2022.
-- **数学规划** — Harbin Institute of Technology (Shenzhen), Spring 2022.
+- **Mathematical Programming** — Harbin Institute of Technology (Shenzhen), Spring 2022.
 
 ## Journal Reviewer
 
