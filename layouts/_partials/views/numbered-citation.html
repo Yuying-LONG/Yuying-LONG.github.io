@@ -1,6 +1,9 @@
 {{ $item := .item }}
-{{ $number := 0 }}
-{{ range $index, $candidate := $item.CurrentSection.RegularPages.ByDate.Reverse }}
-  {{ if eq $candidate.RelPermalink $item.RelPermalink }}{{ $number = add $index 1 }}{{ end }}
+{{ $number := "" }}
+{{ range partial "publication-groups.html" . }}
+  {{ $prefix := .prefix }}
+  {{ range $index, $candidate := .items }}
+    {{ if eq $candidate.RelPermalink $item.RelPermalink }}{{ $number = printf "%s%d" $prefix (add $index 1) }}{{ end }}
+  {{ end }}
 {{ end }}
 {{ partial "publication-citation.html" (dict "item" $item "number" $number) }}

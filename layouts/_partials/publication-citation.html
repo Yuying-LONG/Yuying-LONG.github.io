@@ -19,8 +19,7 @@
       ({{ $item.Date.Format "2006" }}).
       <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
       {{ $item.RenderString (dict "display" "inline") ($item.Params.publication | default "") }}.
-    {{ end }}
-    <span class="citation-links">
+    {{- end -}}&nbsp;<span class="citation-links">
       {{ range (partial "functions/build_links" (dict "page" $item "is_list" 1)) }}
         {{ $url := .url | default "" }}
         {{ if and $url (in .contexts "list") (ne $url "https://doi.org/") (ne $url "http://doi.org/") }}

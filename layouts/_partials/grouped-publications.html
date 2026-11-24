@@ -1,13 +1,12 @@
 {{ $language := .language | default "en" }}
-{{ $number := 0 }}
 <div class="publication-list{{ if eq $language "zh" }} chinese-publications{{ end }}">
 {{ range partial "publication-groups.html" . }}
   {{ if .items }}
+  {{ $prefix := .prefix }}
   <section class="publication-group" aria-label="{{ if eq $language "zh" }}{{ .title_zh }}{{ else }}{{ .title }}{{ end }}">
     {{ if eq $language "zh" }}<h3 class="publication-group-title">{{ .title_zh }}</h3>{{ else }}<h2 class="publication-group-title">{{ .title }}</h2>{{ end }}
-    {{ range .items }}
-      {{ $number = add $number 1 }}
-      {{ partial "publication-citation.html" (dict "item" . "number" $number "language" $language) }}
+    {{ range $index, $item := .items }}
+      {{ partial "publication-citation.html" (dict "item" $item "number" (printf "%s%d" $prefix (add $index 1)) "language" $language) }}
     {{ end }}
   </section>
   {{ end }}

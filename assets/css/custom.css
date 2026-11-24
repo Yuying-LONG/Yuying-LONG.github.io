@@ -9,12 +9,12 @@
 .dark .activity-gallery figure { border-color: #475569; }
 @media (max-width: 480px) { .numbered-publication { grid-template-columns: 2.25rem minmax(0, 1fr); } }
 
-.publication-list { width: min(100%, 56rem); margin: 1.5rem auto; padding: 0 1.5rem; }
+.publication-list { width: min(100%, 68rem); margin: 1.5rem auto; padding: 0 1.5rem; }
 .numbered-publication { margin: 0 0 .65rem; line-height: 1.55; }
 .publication-list .numbered-publication:last-child { margin-bottom: 0; }
 .citation-text, .citation-links { display: inline; }
-.citation-links { white-space: nowrap; }
-.citation-link { margin-left: .25rem; font-size: .9375rem; text-decoration: underline; }
+.citation-links { white-space: normal; }
+.citation-link { white-space: nowrap; margin-left: .25rem; font-size: .9375rem; text-decoration: underline; }
 .citation-text > a:hover { text-decoration: underline; }
 .prose .chinese-publications { width: 100%; padding: 0; margin: 1rem 0; font-size: 1rem; line-height: 1.55; }
 .prose .chinese-publications a { overflow-wrap: anywhere; }
@@ -210,3 +210,21 @@ html { scrollbar-gutter: stable; }
 /* Keep navigation legible when the dark theme is selected. */
 .dark #site-header .nav-link, .dark #site-header .nav-dropdown-link { color: #e2e8f0; }
 .dark #site-header .nav-link:hover, .dark #site-header .nav-link:focus-visible, .dark #site-header .nav-dropdown-link:hover { color: #c7d2fe; }
+
+/* Justify reading text while keeping navigation, headings and card labels aligned. */
+.page-body .prose,
+.page-body .prose p,
+.page-body .prose li,
+.page-body .citation-text,
+.page-body .max-w-prose.grid > div,
+.page-body .featured-research-summary,
+.page-body .featured-research-venue,
+.page-body .presentation-description p,
+.page-body .presentation-footprints > p,
+.page-body .footprint-legend li,
+.page-body article.md\:grid p,
+.page-body .activity-gallery figcaption,
+.page-body #awards li {
+  text-align: justify;
+}
+.page-body .citation-text { text-wrap: pretty; }

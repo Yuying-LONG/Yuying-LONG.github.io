@@ -10,6 +10,6 @@
   {{ end }}
 {{ end }}
 {{ return (slice
-  (dict "title" "Journal Articles" "title_zh" "期刊论文" "items" $journals)
-  (dict "title" "Conference Papers" "title_zh" "会议论文" "items" $conferences)
+  (dict "prefix" "J" "title" "Journal Articles" "title_zh" "期刊论文" "items" $journals)
+  (dict "prefix" "C" "title" "Conference Papers" "title_zh" "会议论文" "items" $conferences)
 ) }}
