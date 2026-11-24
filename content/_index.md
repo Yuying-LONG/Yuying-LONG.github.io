@@ -52,7 +52,7 @@ sections:
   - block: awards-list
     id: awards
     content:
-      title: Awards & Honors
+      title: Selected Awards & Honors
       username: admin
     design:
       spacing:

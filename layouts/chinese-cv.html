@@ -2,13 +2,13 @@
 <main class="chinese-cv-layout" lang="zh-CN">
   <article class="chinese-cv-article">
     <h1>{{ .Title }}</h1>
-    <aside class="chinese-cv-toc" aria-label="本页目录">
-      <p>本页目录</p>
-      {{ .TableOfContents }}
-    </aside>
     <div class="prose prose-slate dark:prose-invert chinese-cv-content">
       {{ .Content }}
     </div>
   </article>
+  <aside class="chinese-cv-toc" aria-label="本页目录">
+    <p>本页目录</p>
+    {{ .TableOfContents }}
+  </aside>
 </main>
 {{ end }}
