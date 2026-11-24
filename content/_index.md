@@ -39,4 +39,15 @@ sections:
       - '0'
       - 4rem
       - '0'
+- block: visitor-records
+  id: visitors
+  content:
+    title: Visitors
+  design:
+    spacing:
+      padding:
+      - 1rem
+      - '0'
+      - 3rem
+      - '0'
 ---

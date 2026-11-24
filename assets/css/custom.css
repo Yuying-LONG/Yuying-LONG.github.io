@@ -228,3 +228,15 @@ html { scrollbar-gutter: stable; }
   text-align: justify;
 }
 .page-body .citation-text { text-wrap: pretty; }
+
+/* A single live visitor counter at the bottom of Bio. */
+.visitor-records-section { width: min(100%, 68rem); margin: 0 auto; padding: 0 1.5rem; text-align: center; }
+.visitor-records-section > h2 { margin: 0 0 .5rem; font-weight: 700; }
+.visitor-records-intro { margin: 0 0 1rem; font-size: var(--site-meta-size); }
+.visitor-records-card { display: grid; place-items: center; box-sizing: border-box; width: min(100%, 20rem); margin: 0 auto; padding: 1rem; border: 1px solid #cbd5e1; border-radius: .75rem; background: #fff; box-shadow: 0 4px 12px #0f172a0a; }
+.visitor-records-card a { display: block; max-width: 100%; border-radius: .25rem; }
+.visitor-records-card a:focus-visible { outline: 2px solid #4f46e5; outline-offset: 4px; }
+.visitor-records-card img { display: block; max-width: 100%; height: auto; margin: 0; color: #374151; font-size: .875rem; }
+.visitor-records-note { margin: .75rem 0 0; font-size: .8125rem; color: #475569; }
+.dark .visitor-records-card { border-color: #475569; }
+.dark .visitor-records-note { color: #cbd5e1; }
