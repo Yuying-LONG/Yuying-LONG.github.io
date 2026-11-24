@@ -1,19 +1,8 @@
 <section class="presentation-footprints" aria-labelledby="footprint-heading">
   <h2 id="footprint-heading">Presentation Footprints</h2>
   <p>Presentation locations in the United States, China, Thailand, and Singapore.</p>
-  <div class="footprint-panels">
-    <figure class="footprint-panel">
-      <figcaption>North America</figcaption>
-      <div class="footprint-map">
-        {{ with resources.Get "media/presentation-footprints-north-america.svg" }}{{ .Content | safeHTML }}{{ end }}
-      </div>
-    </figure>
-    <figure class="footprint-panel">
-      <figcaption>Asia</figcaption>
-      <div class="footprint-map">
-        {{ with resources.Get "media/presentation-footprints.svg" }}{{ .Content | safeHTML }}{{ end }}
-      </div>
-    </figure>
+  <div class="footprint-map">
+    {{ with resources.Get "media/presentation-footprints.svg" }}{{ .Content | safeHTML }}{{ end }}
   </div>
   <ul class="footprint-legend">
     {{ with site.GetPage "/events" }}{{ range .RegularPages.ByDate.Reverse }}

@@ -59,20 +59,20 @@
 .footprint-legend li { margin-bottom: .35rem; }
 .footprint-legend a { text-decoration: underline; }
 
-/* Wider Chinese CV with justified prose and a compact right-hand contents list. */
-.chinese-cv-layout { display: grid; grid-template-columns: minmax(0,1fr) 11rem; gap: 2.5rem; max-width: 86rem; margin: 0 auto; padding: 2.5rem 2rem 4rem; align-items: start; }
-.chinese-cv-article { min-width: 0; }
+/* Center Chinese CV independently of a sidebar or late font measurements. */
+.chinese-cv-layout { display: block; box-sizing: border-box; width: 100%; max-width: 76rem; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+.chinese-cv-article { width: 100%; min-width: 0; margin: 0 auto; }
 .chinese-cv-article > h1 { font-size: 2.25rem; line-height: 1.3; font-weight: 700; margin: 0 0 1.5rem; }
-.chinese-cv-content { max-width: none; font-size: 1.0625rem; line-height: 1.85; text-align: justify; text-justify: inter-ideograph; }
+.chinese-cv-content { max-width: none; width: 100%; font-size: 1.0625rem; line-height: 1.85; text-align: justify; text-justify: inter-ideograph; }
 .chinese-cv-content p, .chinese-cv-content li, .chinese-cv-content .citation-text { text-align: justify; text-justify: inter-ideograph; }
 .chinese-cv-content h2 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: .75rem; }
 .chinese-cv-content .chinese-publications { max-width: none; width: 100%; }
-.chinese-cv-toc { position: sticky; top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto; font-size: .875rem; line-height: 1.7; text-align: left; }
-.chinese-cv-toc > p { font-weight: 600; margin-bottom: .75rem; }
-.chinese-cv-toc ul { list-style: none; margin: 0; padding: 0; }
-.chinese-cv-toc li { margin-bottom: .5rem; }
+.chinese-cv-toc { display: block; position: static; margin: 0 0 1.5rem; padding: .75rem 0; border-top: 1px solid #cbd5e1; border-bottom: 1px solid #cbd5e1; font-size: .875rem; line-height: 1.7; text-align: left; }
+.chinese-cv-toc > p { font-weight: 600; margin-bottom: .5rem; }
+.chinese-cv-toc ul { display: flex; flex-wrap: wrap; gap: .35rem 1.25rem; list-style: none; margin: 0; padding: 0; }
+.chinese-cv-toc li { margin: 0; }
 .chinese-cv-toc a:hover { text-decoration: underline; }
-@media (max-width: 1100px) { .chinese-cv-layout { grid-template-columns: minmax(0,1fr); } .chinese-cv-toc { display: none; } }
+.dark .chinese-cv-toc { border-color: #475569; }
 @media (max-width: 640px) { .chinese-cv-layout { padding: 1.5rem 1rem 3rem; } .chinese-cv-article > h1 { font-size: 1.75rem; } }
 
 /* Keep the Bio palette behind every page and section, including long archives. */
@@ -180,10 +180,6 @@ body.page-wrapper { isolation: isolate; }
 .blox-resume-biography-3 .grid.xl\:grid-cols-3 > .group { text-align: center; justify-content: center; }
 .blox-resume-biography-3 .grid.xl\:grid-cols-3 > .group > .flex { flex-direction: column; align-items: center; }
 .blox-resume-biography-3 .grid.xl\:grid-cols-3 > .group > .flex > .flex-1 { flex: initial; }
-.footprint-panels { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
-.footprint-panel { margin: 0; min-width: 0; }
-.footprint-panel figcaption { margin-bottom: .5rem; font-size: var(--site-meta-size); font-weight: 600; }
-@media (max-width: 640px) { .footprint-panels { grid-template-columns: minmax(0, 1fr); } }
 
 /* Place Education below the profile and summary, centered across the Bio area. */
 .blox-resume-biography-3 .md\:col-span-8 { display: contents; }
@@ -191,3 +187,7 @@ body.page-wrapper { isolation: isolate; }
 .blox-resume-biography-3 .md\:col-span-8 > .mb-16:has(> .grid.xl\:grid-cols-3) { grid-column: 1 / -1; width: min(100%, 64rem); justify-self: center; margin-bottom: 0; }
 @media (min-width: 768px) { .blox-resume-biography-3 .md\:col-span-8 > .mb-12 { grid-column: 5 / -1; } }
 .blox-resume-biography-3 .resume-biography { padding-bottom: 3rem; }
+
+/* Reserve the same horizontal space before and after page navigation. */
+html { scrollbar-gutter: stable; }
+.page-body { width: 100%; min-width: 0; }
