@@ -8,7 +8,7 @@
       {{ delimit $citation.authors "，" }}.
       <a href="{{ $item.RelPermalink }}">{{ $citation.title }}</a>[J].
       <em>{{ $citation.publication }}</em>，{{ $item.Date.Format "2006" }}，{{ $citation.volume }}({{ $citation.issue }})：{{ $citation.pages }}.
-    {{ else }}
+    {{- else -}}
       {{ range $index, $author := ($item.GetTerms "authors") }}
         {{- if gt $index 0 }}, {{ end -}}
         {{ if .RelPermalink }}<a href="{{ .RelPermalink }}"{{ if .Page.Params.highlight_name }} class="font-bold"{{ end }}>{{ .LinkTitle }}</a>{{ else }}<span{{ if .Page.Params.highlight_name }} class="font-bold"{{ end }}>{{ .LinkTitle }}</span>{{ end }}
@@ -20,16 +20,16 @@
       <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
       {{ $item.RenderString (dict "display" "inline") ($item.Params.publication | default "") }}.
     {{- end -}}&nbsp;<span class="citation-links">
-      {{ range (partial "functions/build_links" (dict "page" $item "is_list" 1)) }}
-        {{ $url := .url | default "" }}
-        {{ if and $url (in .contexts "list") (ne $url "https://doi.org/") (ne $url "http://doi.org/") }}
-          {{ $label := .label | default (index (dict "pdf" "PDF" "doi" "DOI" "code" "Code" "slides" "Slides" "bibtex" "Cite") .type) | default "Link" }}
-          {{ if not (urls.Parse $url).Scheme }}
-            {{ with $item.Resources.GetMatch $url }}{{ $url = .RelPermalink }}{{ else }}{{ $url = $url | relURL }}{{ end }}
-          {{ end }}
-          <a href="{{ $url | safeURL }}" class="citation-link">[{{ $label }}]</a>
-        {{ end }}
-      {{ end }}
+      {{- range (partial "functions/build_links" (dict "page" $item "is_list" 1)) -}}
+        {{- $url := .url | default "" -}}
+        {{- if and $url (in .contexts "list") (ne $url "https://doi.org/") (ne $url "http://doi.org/") -}}
+          {{- $label := .label | default (index (dict "pdf" "PDF" "doi" "DOI" "code" "Code" "slides" "Slides" "bibtex" "Cite") .type) | default "Link" -}}
+          {{- if not (urls.Parse $url).Scheme -}}
+            {{- with $item.Resources.GetMatch $url -}}{{- $url = .RelPermalink -}}{{- else -}}{{- $url = $url | relURL -}}{{- end -}}
+          {{- end -}}
+          <a href="{{ $url | safeURL }}" class="citation-link">[{{ $label }}]</a>{{ " " }}
+        {{- end -}}
+      {{- end -}}
     </span>
   </div>
 </div>
