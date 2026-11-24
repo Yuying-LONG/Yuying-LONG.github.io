@@ -1,12 +1,23 @@
 <section class="presentation-footprints" aria-labelledby="footprint-heading">
   <h2 id="footprint-heading">Presentation Footprints</h2>
-  <p>Presentation locations in China, Thailand, and Singapore.</p>
-  <div class="footprint-map">
-    {{ with resources.Get "media/presentation-footprints.svg" }}{{ .Content | safeHTML }}{{ end }}
+  <p>Presentation locations in the United States, China, Thailand, and Singapore.</p>
+  <div class="footprint-panels">
+    <figure class="footprint-panel">
+      <figcaption>North America</figcaption>
+      <div class="footprint-map">
+        {{ with resources.Get "media/presentation-footprints-north-america.svg" }}{{ .Content | safeHTML }}{{ end }}
+      </div>
+    </figure>
+    <figure class="footprint-panel">
+      <figcaption>Asia</figcaption>
+      <div class="footprint-map">
+        {{ with resources.Get "media/presentation-footprints.svg" }}{{ .Content | safeHTML }}{{ end }}
+      </div>
+    </figure>
   </div>
   <ul class="footprint-legend">
     {{ with site.GetPage "/events" }}{{ range .RegularPages.ByDate.Reverse }}
-    <li><a href="{{ .RelPermalink }}">{{ .Params.location }}</a> — {{ .Params.event }}, {{ .Date.Format "Jan 2, 2006" }}</li>
+    <li><a href="{{ .RelPermalink }}">{{ .Params.location }}</a> — {{ .Params.event }}, {{ .Params.date_display | default (.Date.Format "Jan 2, 2006") }}</li>
     {{ end }}{{ end }}
   </ul>
   <p class="footprint-credit">Map data: <a href="https://www.naturalearthdata.com/">Natural Earth</a>.</p>

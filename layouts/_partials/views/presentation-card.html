@@ -2,7 +2,7 @@
 {{ $country := $item.Params.address.country | default "" }}
 <li class="presentation-entry">
   <div class="presentation-when">
-    <time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "Jan 2, 2006" }}</time>
+    <time datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Params.date_display | default ($item.Date.Format "Jan 2, 2006") }}</time>
     <span>{{ $item.Params.location }}{{ if and $country (ne $country $item.Params.location) }}, {{ $country }}{{ end }}</span>
   </div>
   <div class="presentation-description">
