@@ -206,3 +206,7 @@ html { scrollbar-gutter: stable; }
 .dark .featured-research-links a, .dark .job-market-links a { color: #c7d2fe; border-color: #6366f1; }
 .dark .featured-research-links a:hover, .dark .job-market-links a:hover { background: #312e81; }
 @media (max-width: 640px) { .featured-research-grid, .education-grid { grid-template-columns: minmax(0, 1fr); } .featured-research-section, .education-section { padding: 0 1rem; } }
+
+/* Keep navigation legible when the dark theme is selected. */
+.dark #site-header .nav-link, .dark #site-header .nav-dropdown-link { color: #e2e8f0; }
+.dark #site-header .nav-link:hover, .dark #site-header .nav-link:focus-visible, .dark #site-header .nav-dropdown-link:hover { color: #c7d2fe; }
