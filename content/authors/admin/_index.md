@@ -24,6 +24,11 @@ profiles:
   url: https://scholar.google.com/citations?user=1MRupSUAAAAJ&hl=zh-CN
 - icon: academicons/orcid
   url: https://orcid.org/0000-0002-9611-3338
+interests:
+- Emergency Decision-Making
+- Human–AI Collaboration
+- UAV-Assisted Systems
+- Human-Centric Operations & Optimization
 education:
 - area: PhD Candidate in Systems Engineering
   institution: The Hong Kong Polytechnic University
@@ -97,10 +102,6 @@ awards:
 ---
 <p style="text-align: justify;">
 Yuying Long is a PhD candidate in Systems Engineering at <a href="https://www.polyu.edu.hk/aae/">The Hong Kong Polytechnic University</a>, under the supervision of <a href="http://xugangyan.cn/index.html">Dr. Gangyan Xu</a>. During her doctoral studies, she was a visiting scholar at the Technical University of Munich, hosted by <a href="https://www.ot.mgt.tum.de/log/team/minner/">Prof. Stefan Minner</a>. She received her bachelor’s degree from <a href="https://ctt.swjtu.edu.cn/yethan/WebIndexAction">Southwest Jiaotong University</a> in 2020 and her master’s degree from <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology (Shenzhen)</a> in 2022.
-</p>
-
-<p style="text-align: justify;">
-Her research focuses on humanitarian operations and intelligent decision-making, with an emphasis on dynamic resource allocation, UAV-assisted systems, and fairness in emergency response. In her future research, she aims to integrate operations research with artificial intelligence, particularly large language models, to support efficient, fair, and human-centered operational decisions under uncertainty.
 </p>
 
 <p>

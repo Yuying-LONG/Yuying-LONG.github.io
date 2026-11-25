@@ -12,7 +12,7 @@ sections:
     headings:
       about: ''
       education: ''
-      interests: ''
+      interests: Research Interests
   design:
     avatar:
       size: medium
