@@ -1,0 +1,5 @@
+{{ with site.GetPage "/authors/admin" }}
+  {{ with .Params.interests }}
+    {{ partial "research-interests-list.html" . }}
+  {{ end }}
+{{ end }}

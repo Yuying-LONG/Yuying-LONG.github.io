@@ -1,0 +1,5 @@
+<ul lang="en" class="grid grid-cols-1 list-disc gap-x-8 gap-y-1 pl-5 text-gray-800 md:grid-cols-2 dark:text-gray-200">
+  {{ range . }}
+    <li>{{ . | markdownify | emojify }}</li>
+  {{ end }}
+</ul>
