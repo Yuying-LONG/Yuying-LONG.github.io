@@ -82,7 +82,7 @@ awards:
   title_zh: 优秀硕士学位论文
   awarder_zh: 哈尔滨工业大学
 - title: Outstanding Graduate
-  date: '2025-06-01'
+  date: '2022-06-01'
   awarder: Harbin Institute of Technology
   icon: hero/trophy
   title_zh: 优秀毕业生
